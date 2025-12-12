@@ -1,0 +1,153 @@
+Using device: cuda
+GPU: NVIDIA GeForce RTX 4090
+================================================================================
+Running experiments for alexnet
+[WARN] Missing keys when loading alexnet: ['classifier.6.weight', 'classifier.6.bias']
+Loaded pretrained weights (backbone only) for alexnet from /home/airhust/homework/datasets-readonly/alexnet_pretrained_pytorch.pth
+[alexnet][full_finetune] Epoch 001/20 | Train 0.5879/79.37% | Test 0.3415/88.32% | LR 1.99e-04
+[alexnet][full_finetune] Epoch 002/20 | Train 0.3420/88.06% | Test 0.3065/89.54% | LR 1.95e-04
+[alexnet][full_finetune] Epoch 003/20 | Train 0.2678/90.57% | Test 0.2759/90.73% | LR 1.89e-04
+[alexnet][full_finetune] Epoch 004/20 | Train 0.2145/92.54% | Test 0.2672/90.96% | LR 1.81e-04
+[alexnet][full_finetune] Epoch 005/20 | Train 0.1781/93.72% | Test 0.2673/91.14% | LR 1.71e-04
+[alexnet][full_finetune] Epoch 006/20 | Train 0.1465/94.96% | Test 0.2652/91.16% | LR 1.59e-04
+[alexnet][full_finetune] Epoch 007/20 | Train 0.1210/95.73% | Test 0.2616/91.69% | LR 1.45e-04
+[alexnet][full_finetune] Epoch 008/20 | Train 0.0978/96.68% | Test 0.2464/92.06% | LR 1.31e-04
+[alexnet][full_finetune] Epoch 009/20 | Train 0.0819/97.18% | Test 0.2468/92.47% | LR 1.16e-04
+[alexnet][full_finetune] Epoch 010/20 | Train 0.0665/97.64% | Test 0.2699/92.12% | LR 1.00e-04
+[alexnet][full_finetune] Epoch 011/20 | Train 0.0537/98.07% | Test 0.2560/92.64% | LR 8.44e-05
+[alexnet][full_finetune] Epoch 012/20 | Train 0.0423/98.49% | Test 0.2671/92.79% | LR 6.91e-05
+[alexnet][full_finetune] Epoch 013/20 | Train 0.0327/98.90% | Test 0.2537/93.27% | LR 5.46e-05
+[alexnet][full_finetune] Epoch 014/20 | Train 0.0251/99.12% | Test 0.2576/93.27% | LR 4.12e-05
+[alexnet][full_finetune] Epoch 015/20 | Train 0.0199/99.31% | Test 0.2790/93.10% | LR 2.93e-05
+[alexnet][full_finetune] Epoch 016/20 | Train 0.0170/99.45% | Test 0.2712/93.62% | LR 1.91e-05
+[alexnet][full_finetune] Epoch 017/20 | Train 0.0128/99.58% | Test 0.2739/93.57% | LR 1.09e-05
+[alexnet][full_finetune] Epoch 018/20 | Train 0.0113/99.63% | Test 0.2719/93.72% | LR 4.89e-06
+[alexnet][full_finetune] Epoch 019/20 | Train 0.0094/99.73% | Test 0.2729/93.64% | LR 1.23e-06
+[alexnet][full_finetune] Epoch 020/20 | Train 0.0099/99.66% | Test 0.2722/93.67% | LR 0.00e+00
+[alexnet][full_finetune] Best test acc: 93.72% | Time: 3m14.98s | Saved: /home/airhust/homework/finetune/outputs/alexnet_full_finetune_best.pth
+Saved curves to /home/airhust/homework/finetune/outputs/alexnet_full_finetune_curves.png
+[WARN] Missing keys when loading alexnet: ['classifier.6.weight', 'classifier.6.bias']
+Loaded pretrained weights (backbone only) for alexnet from /home/airhust/homework/datasets-readonly/alexnet_pretrained_pytorch.pth
+[alexnet][frozen_head] Epoch 001/20 | Train 0.8123/71.38% | Test 0.5877/79.07% | LR 9.94e-04
+[alexnet][frozen_head] Epoch 002/20 | Train 0.6798/76.08% | Test 0.5537/80.87% | LR 9.76e-04
+[alexnet][frozen_head] Epoch 003/20 | Train 0.6506/77.01% | Test 0.5282/81.91% | LR 9.46e-04
+[alexnet][frozen_head] Epoch 004/20 | Train 0.6398/77.24% | Test 0.5267/81.53% | LR 9.05e-04
+[alexnet][frozen_head] Epoch 005/20 | Train 0.6300/77.79% | Test 0.5232/81.78% | LR 8.54e-04
+[alexnet][frozen_head] Epoch 006/20 | Train 0.6159/78.37% | Test 0.5215/81.76% | LR 7.94e-04
+[alexnet][frozen_head] Epoch 007/20 | Train 0.6095/78.22% | Test 0.5239/81.60% | LR 7.27e-04
+[alexnet][frozen_head] Epoch 008/20 | Train 0.6039/78.67% | Test 0.5162/82.28% | LR 6.55e-04
+[alexnet][frozen_head] Epoch 009/20 | Train 0.5941/78.99% | Test 0.5164/81.69% | LR 5.78e-04
+[alexnet][frozen_head] Epoch 010/20 | Train 0.5921/78.90% | Test 0.5029/82.09% | LR 5.00e-04
+[alexnet][frozen_head] Epoch 011/20 | Train 0.5822/79.39% | Test 0.5208/81.67% | LR 4.22e-04
+[alexnet][frozen_head] Epoch 012/20 | Train 0.5771/79.54% | Test 0.5028/82.35% | LR 3.45e-04
+[alexnet][frozen_head] Epoch 013/20 | Train 0.5777/79.44% | Test 0.5016/82.43% | LR 2.73e-04
+[alexnet][frozen_head] Epoch 014/20 | Train 0.5654/79.92% | Test 0.4958/82.45% | LR 2.06e-04
+[alexnet][frozen_head] Epoch 015/20 | Train 0.5615/80.09% | Test 0.4977/82.26% | LR 1.46e-04
+[alexnet][frozen_head] Epoch 016/20 | Train 0.5629/79.87% | Test 0.4919/82.64% | LR 9.55e-05
+[alexnet][frozen_head] Epoch 017/20 | Train 0.5631/80.03% | Test 0.4854/82.83% | LR 5.45e-05
+[alexnet][frozen_head] Epoch 018/20 | Train 0.5535/80.17% | Test 0.4892/82.63% | LR 2.45e-05
+[alexnet][frozen_head] Epoch 019/20 | Train 0.5550/80.36% | Test 0.4860/82.83% | LR 6.16e-06
+[alexnet][frozen_head] Epoch 020/20 | Train 0.5558/80.25% | Test 0.4864/82.77% | LR 0.00e+00
+[alexnet][frozen_head] Best test acc: 82.83% | Time: 2m57.83s | Saved: /home/airhust/homework/finetune/outputs/alexnet_frozen_head_best.pth
+Saved curves to /home/airhust/homework/finetune/outputs/alexnet_frozen_head_curves.png
+================================================================================
+Running experiments for vgg16
+[WARN] Missing keys when loading vgg16: ['classifier.6.weight', 'classifier.6.bias']
+Loaded pretrained weights (backbone only) for vgg16 from /home/airhust/homework/datasets-readonly/vgg16_pretrained_pytorch.pth
+[vgg16][full_finetune] Epoch 001/20 | Train 0.5201/82.11% | Test 0.3029/89.44% | LR 1.99e-04
+[vgg16][full_finetune] Epoch 002/20 | Train 0.2397/91.84% | Test 0.2335/91.86% | LR 1.95e-04
+[vgg16][full_finetune] Epoch 003/20 | Train 0.1734/94.19% | Test 0.2459/91.97% | LR 1.89e-04
+[vgg16][full_finetune] Epoch 004/20 | Train 0.1269/95.65% | Test 0.2322/92.29% | LR 1.81e-04
+[vgg16][full_finetune] Epoch 005/20 | Train 0.0974/96.71% | Test 0.2932/91.88% | LR 1.71e-04
+[vgg16][full_finetune] Epoch 006/20 | Train 0.0802/97.27% | Test 0.2501/92.96% | LR 1.59e-04
+[vgg16][full_finetune] Epoch 007/20 | Train 0.0620/97.87% | Test 0.2717/92.82% | LR 1.45e-04
+[vgg16][full_finetune] Epoch 008/20 | Train 0.0442/98.52% | Test 0.2323/93.40% | LR 1.31e-04
+[vgg16][full_finetune] Epoch 009/20 | Train 0.0313/98.89% | Test 0.2582/93.71% | LR 1.16e-04
+[vgg16][full_finetune] Epoch 010/20 | Train 0.0265/99.11% | Test 0.2763/93.79% | LR 1.00e-04
+[vgg16][full_finetune] Epoch 011/20 | Train 0.0204/99.37% | Test 0.2690/93.93% | LR 8.44e-05
+[vgg16][full_finetune] Epoch 012/20 | Train 0.0133/99.60% | Test 0.2675/94.20% | LR 6.91e-05
+[vgg16][full_finetune] Epoch 013/20 | Train 0.0077/99.72% | Test 0.2611/94.40% | LR 5.46e-05
+[vgg16][full_finetune] Epoch 014/20 | Train 0.0051/99.81% | Test 0.2865/94.35% | LR 4.12e-05
+[vgg16][full_finetune] Epoch 015/20 | Train 0.0023/99.94% | Test 0.2945/94.55% | LR 2.93e-05
+[vgg16][full_finetune] Epoch 016/20 | Train 0.0011/99.97% | Test 0.2860/94.80% | LR 1.91e-05
+[vgg16][full_finetune] Epoch 017/20 | Train 0.0007/99.98% | Test 0.2823/94.91% | LR 1.09e-05
+[vgg16][full_finetune] Epoch 018/20 | Train 0.0004/99.99% | Test 0.2801/95.00% | LR 4.89e-06
+[vgg16][full_finetune] Epoch 019/20 | Train 0.0005/99.99% | Test 0.2843/94.98% | LR 1.23e-06
+[vgg16][full_finetune] Epoch 020/20 | Train 0.0003/99.99% | Test 0.2824/94.98% | LR 0.00e+00
+[vgg16][full_finetune] Best test acc: 95.00% | Time: 20m29.12s | Saved: /home/airhust/homework/finetune/outputs/vgg16_full_finetune_best.pth
+Saved curves to /home/airhust/homework/finetune/outputs/vgg16_full_finetune_curves.png
+[WARN] Missing keys when loading vgg16: ['classifier.6.weight', 'classifier.6.bias']
+Loaded pretrained weights (backbone only) for vgg16 from /home/airhust/homework/datasets-readonly/vgg16_pretrained_pytorch.pth
+[vgg16][frozen_head] Epoch 001/20 | Train 0.7191/74.93% | Test 0.5614/80.09% | LR 9.94e-04
+[vgg16][frozen_head] Epoch 002/20 | Train 0.6007/78.78% | Test 0.5293/81.47% | LR 9.76e-04
+[vgg16][frozen_head] Epoch 003/20 | Train 0.5908/79.20% | Test 0.5218/81.87% | LR 9.46e-04
+[vgg16][frozen_head] Epoch 004/20 | Train 0.5792/79.80% | Test 0.5319/81.38% | LR 9.05e-04
+[vgg16][frozen_head] Epoch 005/20 | Train 0.5785/79.61% | Test 0.4976/82.64% | LR 8.54e-04
+[vgg16][frozen_head] Epoch 006/20 | Train 0.5756/79.61% | Test 0.5008/82.32% | LR 7.94e-04
+[vgg16][frozen_head] Epoch 007/20 | Train 0.5665/79.95% | Test 0.4835/83.10% | LR 7.27e-04
+[vgg16][frozen_head] Epoch 008/20 | Train 0.5644/80.20% | Test 0.4832/83.24% | LR 6.55e-04
+[vgg16][frozen_head] Epoch 009/20 | Train 0.5582/80.17% | Test 0.4933/82.56% | LR 5.78e-04
+[vgg16][frozen_head] Epoch 010/20 | Train 0.5564/80.21% | Test 0.4890/82.89% | LR 5.00e-04
+[vgg16][frozen_head] Epoch 011/20 | Train 0.5475/80.66% | Test 0.4869/82.86% | LR 4.22e-04
+[vgg16][frozen_head] Epoch 012/20 | Train 0.5427/80.88% | Test 0.4803/82.70% | LR 3.45e-04
+[vgg16][frozen_head] Epoch 013/20 | Train 0.5333/80.97% | Test 0.4830/82.91% | LR 2.73e-04
+[vgg16][frozen_head] Epoch 014/20 | Train 0.5358/80.81% | Test 0.4740/83.17% | LR 2.06e-04
+[vgg16][frozen_head] Epoch 015/20 | Train 0.5363/81.06% | Test 0.4771/83.22% | LR 1.46e-04
+[vgg16][frozen_head] Epoch 016/20 | Train 0.5324/81.12% | Test 0.4798/82.91% | LR 9.55e-05
+[vgg16][frozen_head] Epoch 017/20 | Train 0.5286/81.41% | Test 0.4770/83.09% | LR 5.45e-05
+[vgg16][frozen_head] Epoch 018/20 | Train 0.5264/81.37% | Test 0.4739/83.34% | LR 2.45e-05
+[vgg16][frozen_head] Epoch 019/20 | Train 0.5196/81.58% | Test 0.4740/83.24% | LR 6.16e-06
+[vgg16][frozen_head] Epoch 020/20 | Train 0.5217/81.38% | Test 0.4743/83.19% | LR 0.00e+00
+[vgg16][frozen_head] Best test acc: 83.34% | Time: 9m17.79s | Saved: /home/airhust/homework/finetune/outputs/vgg16_frozen_head_best.pth
+Saved curves to /home/airhust/homework/finetune/outputs/vgg16_frozen_head_curves.png
+================================================================================
+Running experiments for resnet18
+[WARN] Missing keys when loading resnet18: ['fc.weight', 'fc.bias']
+Loaded pretrained weights (backbone only) for resnet18 from /home/airhust/homework/datasets-readonly/resnet18_pretrained_pytorch.pth
+[resnet18][full_finetune] Epoch 001/20 | Train 0.3333/89.10% | Test 0.2149/92.67% | LR 1.99e-04
+[resnet18][full_finetune] Epoch 002/20 | Train 0.1302/95.64% | Test 0.1833/93.72% | LR 1.95e-04
+[resnet18][full_finetune] Epoch 003/20 | Train 0.0784/97.44% | Test 0.1661/94.52% | LR 1.89e-04
+[resnet18][full_finetune] Epoch 004/20 | Train 0.0541/98.31% | Test 0.1544/95.09% | LR 1.81e-04
+[resnet18][full_finetune] Epoch 005/20 | Train 0.0364/98.86% | Test 0.1769/94.49% | LR 1.71e-04
+[resnet18][full_finetune] Epoch 006/20 | Train 0.0261/99.21% | Test 0.1620/94.90% | LR 1.59e-04
+[resnet18][full_finetune] Epoch 007/20 | Train 0.0179/99.48% | Test 0.1660/95.05% | LR 1.45e-04
+[resnet18][full_finetune] Epoch 008/20 | Train 0.0134/99.64% | Test 0.1654/95.32% | LR 1.31e-04
+[resnet18][full_finetune] Epoch 009/20 | Train 0.0092/99.77% | Test 0.1544/95.73% | LR 1.16e-04
+[resnet18][full_finetune] Epoch 010/20 | Train 0.0050/99.90% | Test 0.1494/95.79% | LR 1.00e-04
+[resnet18][full_finetune] Epoch 011/20 | Train 0.0040/99.91% | Test 0.1445/96.06% | LR 8.44e-05
+[resnet18][full_finetune] Epoch 012/20 | Train 0.0024/99.96% | Test 0.1387/96.18% | LR 6.91e-05
+[resnet18][full_finetune] Epoch 013/20 | Train 0.0018/99.97% | Test 0.1347/96.16% | LR 5.46e-05
+[resnet18][full_finetune] Epoch 014/20 | Train 0.0012/99.99% | Test 0.1345/96.28% | LR 4.12e-05
+[resnet18][full_finetune] Epoch 015/20 | Train 0.0009/99.99% | Test 0.1335/96.37% | LR 2.93e-05
+[resnet18][full_finetune] Epoch 016/20 | Train 0.0006/100.00% | Test 0.1336/96.41% | LR 1.91e-05
+[resnet18][full_finetune] Epoch 017/20 | Train 0.0006/100.00% | Test 0.1313/96.37% | LR 1.09e-05
+[resnet18][full_finetune] Epoch 018/20 | Train 0.0006/100.00% | Test 0.1323/96.32% | LR 4.89e-06
+[resnet18][full_finetune] Epoch 019/20 | Train 0.0005/100.00% | Test 0.1311/96.41% | LR 1.23e-06
+[resnet18][full_finetune] Epoch 020/20 | Train 0.0005/100.00% | Test 0.1322/96.35% | LR 0.00e+00
+[resnet18][full_finetune] Best test acc: 96.41% | Time: 4m14.99s | Saved: /home/airhust/homework/finetune/outputs/resnet18_full_finetune_best.pth
+Saved curves to /home/airhust/homework/finetune/outputs/resnet18_full_finetune_curves.png
+[WARN] Missing keys when loading resnet18: ['fc.weight', 'fc.bias']
+Loaded pretrained weights (backbone only) for resnet18 from /home/airhust/homework/datasets-readonly/resnet18_pretrained_pytorch.pth
+[resnet18][frozen_head] Epoch 001/20 | Train 1.0281/68.63% | Test 0.7257/76.15% | LR 9.94e-04
+[resnet18][frozen_head] Epoch 002/20 | Train 0.6545/78.45% | Test 0.6528/77.69% | LR 9.76e-04
+[resnet18][frozen_head] Epoch 003/20 | Train 0.6003/79.87% | Test 0.6039/79.40% | LR 9.46e-04
+[resnet18][frozen_head] Epoch 004/20 | Train 0.5721/80.50% | Test 0.5899/79.82% | LR 9.05e-04
+[resnet18][frozen_head] Epoch 005/20 | Train 0.5599/80.91% | Test 0.5841/79.97% | LR 8.54e-04
+[resnet18][frozen_head] Epoch 006/20 | Train 0.5492/81.22% | Test 0.5730/80.22% | LR 7.94e-04
+[resnet18][frozen_head] Epoch 007/20 | Train 0.5363/81.41% | Test 0.5646/80.53% | LR 7.27e-04
+[resnet18][frozen_head] Epoch 008/20 | Train 0.5328/81.77% | Test 0.5667/80.54% | LR 6.55e-04
+[resnet18][frozen_head] Epoch 009/20 | Train 0.5289/81.96% | Test 0.5628/80.69% | LR 5.78e-04
+[resnet18][frozen_head] Epoch 010/20 | Train 0.5248/81.94% | Test 0.5558/80.81% | LR 5.00e-04
+[resnet18][frozen_head] Epoch 011/20 | Train 0.5211/82.12% | Test 0.5603/80.79% | LR 4.22e-04
+[resnet18][frozen_head] Epoch 012/20 | Train 0.5185/82.19% | Test 0.5610/80.86% | LR 3.45e-04
+[resnet18][frozen_head] Epoch 013/20 | Train 0.5182/82.27% | Test 0.5579/80.41% | LR 2.73e-04
+[resnet18][frozen_head] Epoch 014/20 | Train 0.5173/82.22% | Test 0.5511/81.07% | LR 2.06e-04
+[resnet18][frozen_head] Epoch 015/20 | Train 0.5110/82.42% | Test 0.5479/81.19% | LR 1.46e-04
+[resnet18][frozen_head] Epoch 016/20 | Train 0.5099/82.38% | Test 0.5520/81.09% | LR 9.55e-05
+[resnet18][frozen_head] Epoch 017/20 | Train 0.5118/82.42% | Test 0.5510/80.96% | LR 5.45e-05
+[resnet18][frozen_head] Epoch 018/20 | Train 0.5071/82.62% | Test 0.5548/80.78% | LR 2.45e-05
+[resnet18][frozen_head] Epoch 019/20 | Train 0.5058/82.63% | Test 0.5510/81.03% | LR 6.16e-06
+[resnet18][frozen_head] Epoch 020/20 | Train 0.5080/82.50% | Test 0.5504/81.24% | LR 0.00e+00
+[resnet18][frozen_head] Best test acc: 81.24% | Time: 3m03.02s | Saved: /home/airhust/homework/finetune/outputs/resnet18_frozen_head_best.pth
+Saved curves to /home/airhust/homework/finetune/outputs/resnet18_frozen_head_curves.png
+Saved summary to /home/airhust/homework/finetune/outputs/assignment3_summary_gpu.json
