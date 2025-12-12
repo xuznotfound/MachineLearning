@@ -1,0 +1,30 @@
+# 大文件
+*.pth
+*.pt
+*.h5
+*.keras
+*.pkl
+*.tar.gz
+*.zip
+
+# 数据集
+data/
+dataset/
+datasets/
+cnn_cifar/data/
+finetune/data/
+
+# 模型文件
+models/
+cnn_cifar/*.pth
+finetune/models/
+finetune/outputs/
+
+# 日志
+logs/
+*.log
+
+# 其他
+*.ipynb
+__pycache__/
+*.py[cod]
