@@ -17,8 +17,8 @@ finetune/data/
 # 模型文件
 models/
 cnn_cifar/*.pth
-finetune/models/
-finetune/outputs/
+finetune/models/*.pth
+finetune/outputs/*.pth
 
 # 日志
 logs/
