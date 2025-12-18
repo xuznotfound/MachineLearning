@@ -1,0 +1,34 @@
+Using device: cuda
+Path to dataset files: /home/airhust/.cache/kagglehub/datasets/sumanthvrao/daily-climate-time-series-data/versions/3
+Train samples: 1441, Test samples: 93
+Epoch 001 | train MSE 0.9514 | test MSE 0.7658
+Epoch 002 | train MSE 0.9378 | test MSE 0.7430
+Epoch 003 | train MSE 0.9181 | test MSE 0.7101
+Epoch 004 | train MSE 0.8850 | test MSE 0.6592
+Epoch 005 | train MSE 0.8339 | test MSE 0.5840
+Epoch 006 | train MSE 0.7562 | test MSE 0.4609
+Epoch 007 | train MSE 0.6663 | test MSE 0.3599
+Epoch 008 | train MSE 0.6027 | test MSE 0.4251
+Epoch 009 | train MSE 0.5427 | test MSE 0.6240
+Epoch 010 | train MSE 0.5031 | test MSE 0.7311
+Epoch 011 | train MSE 0.4603 | test MSE 0.7906
+Epoch 012 | train MSE 0.4387 | test MSE 0.9193
+Epoch 013 | train MSE 0.4230 | test MSE 0.9973
+Epoch 014 | train MSE 0.4145 | test MSE 0.8924
+Epoch 015 | train MSE 0.4093 | test MSE 0.8537
+Epoch 016 | train MSE 0.4027 | test MSE 0.9426
+Epoch 017 | train MSE 0.3917 | test MSE 1.0048
+Epoch 018 | train MSE 0.3842 | test MSE 0.9770
+Epoch 019 | train MSE 0.3756 | test MSE 0.9723
+Epoch 020 | train MSE 0.3661 | test MSE 0.9439
+Epoch 021 | train MSE 0.3587 | test MSE 0.8925
+Epoch 022 | train MSE 0.3522 | test MSE 0.8673
+Epoch 023 | train MSE 0.3464 | test MSE 0.8303
+Epoch 024 | train MSE 0.3403 | test MSE 0.8028
+Epoch 025 | train MSE 0.3294 | test MSE 0.6946
+Epoch 026 | train MSE 0.3202 | test MSE 0.8326
+Epoch 027 | train MSE 0.3112 | test MSE 0.6862
+Early stopping at epoch 27 (best epoch 7, best test MSE 0.3599)
+Loaded best model from epoch 7 with test MSE 0.3599
+Final test MSE (original scale): 19.4213
+Saved predictions to results/lstm_delhi_preds.csv

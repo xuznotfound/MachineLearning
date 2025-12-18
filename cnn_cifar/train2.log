@@ -1,0 +1,436 @@
+运行final_test_verbose.py
+
+使用设备: cuda
+GPU型号: NVIDIA GeForce RTX 4090
+开始训练...
+  [Epoch 001][Batch 0098/0098] Loss 1.6269 | Acc 40.11%
+Epoch 001 | LR 0.00100 | Train Loss 1.6269 Acc 40.11% | Test Loss 1.4286 Acc 48.25% | Epoch Time 14.67s | Throughput 3409.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 48.25%
+  [Epoch 002][Batch 0098/0098] Loss 1.1329 | Acc 58.92%
+Epoch 002 | LR 0.00100 | Train Loss 1.1329 Acc 58.92% | Test Loss 1.5800 Acc 48.92% | Epoch Time 3.10s | Throughput 16119.2 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 48.92%
+  [Epoch 003][Batch 0098/0098] Loss 0.8959 | Acc 68.16%
+Epoch 003 | LR 0.00100 | Train Loss 0.8959 Acc 68.16% | Test Loss 0.9733 Acc 65.74% | Epoch Time 3.05s | Throughput 16374.3 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 65.74%
+  [Epoch 004][Batch 0098/0098] Loss 0.7413 | Acc 73.77%
+Epoch 004 | LR 0.00100 | Train Loss 0.7413 Acc 73.77% | Test Loss 0.7675 Acc 73.62% | Epoch Time 3.12s | Throughput 16040.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 73.62%
+  [Epoch 005][Batch 0098/0098] Loss 0.6211 | Acc 78.22%
+Epoch 005 | LR 0.00100 | Train Loss 0.6211 Acc 78.22% | Test Loss 0.7072 Acc 75.73% | Epoch Time 3.05s | Throughput 16402.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 75.73%
+  [Epoch 006][Batch 0098/0098] Loss 0.5392 | Acc 81.38%
+Epoch 006 | LR 0.00100 | Train Loss 0.5392 Acc 81.38% | Test Loss 0.8762 Acc 72.24% | Epoch Time 3.06s | Throughput 16326.1 samples/s
+  [Epoch 007][Batch 0098/0098] Loss 0.4936 | Acc 82.87%
+Epoch 007 | LR 0.00100 | Train Loss 0.4936 Acc 82.87% | Test Loss 0.6979 Acc 76.29% | Epoch Time 3.06s | Throughput 16337.5 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 76.29%
+  [Epoch 008][Batch 0098/0098] Loss 0.4475 | Acc 84.50%
+Epoch 008 | LR 0.00100 | Train Loss 0.4475 Acc 84.50% | Test Loss 0.6353 Acc 79.62% | Epoch Time 3.11s | Throughput 16083.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 79.62%
+  [Epoch 009][Batch 0098/0098] Loss 0.4050 | Acc 85.92%
+Epoch 009 | LR 0.00100 | Train Loss 0.4050 Acc 85.92% | Test Loss 0.5599 Acc 81.03% | Epoch Time 3.08s | Throughput 16210.2 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 81.03%
+  [Epoch 010][Batch 0098/0098] Loss 0.3719 | Acc 87.18%
+Epoch 010 | LR 0.00100 | Train Loss 0.3719 Acc 87.18% | Test Loss 0.5030 Acc 82.92% | Epoch Time 3.10s | Throughput 16128.8 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 82.92%
+  [Epoch 011][Batch 0098/0098] Loss 0.3538 | Acc 87.85%
+Epoch 011 | LR 0.00100 | Train Loss 0.3538 Acc 87.85% | Test Loss 0.5107 Acc 83.07% | Epoch Time 3.08s | Throughput 16217.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 83.07%
+  [Epoch 012][Batch 0098/0098] Loss 0.3199 | Acc 88.93%
+Epoch 012 | LR 0.00100 | Train Loss 0.3199 Acc 88.93% | Test Loss 0.4960 Acc 83.01% | Epoch Time 3.07s | Throughput 16309.8 samples/s
+  [Epoch 013][Batch 0098/0098] Loss 0.3066 | Acc 89.37%
+Epoch 013 | LR 0.00100 | Train Loss 0.3066 Acc 89.37% | Test Loss 0.5155 Acc 83.04% | Epoch Time 3.06s | Throughput 16363.5 samples/s
+  [Epoch 014][Batch 0098/0098] Loss 0.2878 | Acc 90.00%
+Epoch 014 | LR 0.00100 | Train Loss 0.2878 Acc 90.00% | Test Loss 0.4573 Acc 85.35% | Epoch Time 3.04s | Throughput 16436.7 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 85.35%
+  [Epoch 015][Batch 0098/0098] Loss 0.2705 | Acc 90.64%
+Epoch 015 | LR 0.00100 | Train Loss 0.2705 Acc 90.64% | Test Loss 0.5522 Acc 83.09% | Epoch Time 3.04s | Throughput 16447.3 samples/s
+  [Epoch 016][Batch 0098/0098] Loss 0.2646 | Acc 90.90%
+Epoch 016 | LR 0.00100 | Train Loss 0.2646 Acc 90.90% | Test Loss 0.4474 Acc 85.18% | Epoch Time 3.05s | Throughput 16419.4 samples/s
+  [Epoch 017][Batch 0098/0098] Loss 0.2382 | Acc 91.80%
+Epoch 017 | LR 0.00100 | Train Loss 0.2382 Acc 91.80% | Test Loss 0.5395 Acc 83.26% | Epoch Time 3.05s | Throughput 16398.7 samples/s
+  [Epoch 018][Batch 0098/0098] Loss 0.2272 | Acc 92.15%
+Epoch 018 | LR 0.00100 | Train Loss 0.2272 Acc 92.15% | Test Loss 0.4758 Acc 84.56% | Epoch Time 3.04s | Throughput 16425.0 samples/s
+  [Epoch 019][Batch 0098/0098] Loss 0.2210 | Acc 92.39%
+Epoch 019 | LR 0.00100 | Train Loss 0.2210 Acc 92.39% | Test Loss 0.3862 Acc 87.54% | Epoch Time 3.09s | Throughput 16164.6 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 87.54%
+  [Epoch 020][Batch 0098/0098] Loss 0.2088 | Acc 92.91%
+Epoch 020 | LR 0.00100 | Train Loss 0.2088 Acc 92.91% | Test Loss 0.4816 Acc 84.31% | Epoch Time 3.08s | Throughput 16254.3 samples/s
+  [Epoch 021][Batch 0098/0098] Loss 0.1983 | Acc 93.07%
+Epoch 021 | LR 0.00100 | Train Loss 0.1983 Acc 93.07% | Test Loss 0.4217 Acc 86.52% | Epoch Time 3.12s | Throughput 16039.1 samples/s
+  [Epoch 022][Batch 0098/0098] Loss 0.1967 | Acc 93.18%
+Epoch 022 | LR 0.00100 | Train Loss 0.1967 Acc 93.18% | Test Loss 0.4041 Acc 86.82% | Epoch Time 3.07s | Throughput 16271.9 samples/s
+  [Epoch 023][Batch 0098/0098] Loss 0.1808 | Acc 93.65%
+Epoch 023 | LR 0.00100 | Train Loss 0.1808 Acc 93.65% | Test Loss 0.4875 Acc 84.73% | Epoch Time 3.09s | Throughput 16168.7 samples/s
+  [Epoch 024][Batch 0098/0098] Loss 0.1769 | Acc 93.92%
+Epoch 024 | LR 0.00100 | Train Loss 0.1769 Acc 93.92% | Test Loss 0.3969 Acc 87.17% | Epoch Time 3.09s | Throughput 16168.0 samples/s
+  [Epoch 025][Batch 0098/0098] Loss 0.1686 | Acc 93.93%
+Epoch 025 | LR 0.00100 | Train Loss 0.1686 Acc 93.93% | Test Loss 0.4662 Acc 86.11% | Epoch Time 3.12s | Throughput 16046.2 samples/s
+  [Epoch 026][Batch 0098/0098] Loss 0.1571 | Acc 94.52%
+Epoch 026 | LR 0.00100 | Train Loss 0.1571 Acc 94.52% | Test Loss 0.5723 Acc 83.86% | Epoch Time 3.09s | Throughput 16169.9 samples/s
+  [Epoch 027][Batch 0098/0098] Loss 0.1581 | Acc 94.57%
+Epoch 027 | LR 0.00100 | Train Loss 0.1581 Acc 94.57% | Test Loss 0.3993 Acc 87.85% | Epoch Time 3.11s | Throughput 16093.3 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 87.85%
+  [Epoch 028][Batch 0098/0098] Loss 0.1497 | Acc 94.72%
+Epoch 028 | LR 0.00100 | Train Loss 0.1497 Acc 94.72% | Test Loss 0.4461 Acc 86.24% | Epoch Time 3.10s | Throughput 16119.5 samples/s
+  [Epoch 029][Batch 0098/0098] Loss 0.1480 | Acc 94.84%
+Epoch 029 | LR 0.00100 | Train Loss 0.1480 Acc 94.84% | Test Loss 0.4498 Acc 86.15% | Epoch Time 3.14s | Throughput 15915.8 samples/s
+  [Epoch 030][Batch 0098/0098] Loss 0.1378 | Acc 95.15%
+Epoch 030 | LR 0.00100 | Train Loss 0.1378 Acc 95.15% | Test Loss 0.4538 Acc 86.43% | Epoch Time 3.11s | Throughput 16089.0 samples/s
+  [Epoch 031][Batch 0098/0098] Loss 0.1336 | Acc 95.34%
+Epoch 031 | LR 0.00100 | Train Loss 0.1336 Acc 95.34% | Test Loss 0.3795 Acc 88.61% | Epoch Time 3.08s | Throughput 16223.6 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 88.61%
+  [Epoch 032][Batch 0098/0098] Loss 0.1321 | Acc 95.37%
+Epoch 032 | LR 0.00100 | Train Loss 0.1321 Acc 95.37% | Test Loss 0.4090 Acc 87.39% | Epoch Time 3.08s | Throughput 16251.3 samples/s
+  [Epoch 033][Batch 0098/0098] Loss 0.1298 | Acc 95.53%
+Epoch 033 | LR 0.00100 | Train Loss 0.1298 Acc 95.53% | Test Loss 0.3566 Acc 89.15% | Epoch Time 3.11s | Throughput 16056.8 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.15%
+  [Epoch 034][Batch 0098/0098] Loss 0.1247 | Acc 95.69%
+Epoch 034 | LR 0.00100 | Train Loss 0.1247 Acc 95.69% | Test Loss 0.4052 Acc 87.06% | Epoch Time 3.10s | Throughput 16129.3 samples/s
+  [Epoch 035][Batch 0098/0098] Loss 0.1141 | Acc 96.07%
+Epoch 035 | LR 0.00100 | Train Loss 0.1141 Acc 96.07% | Test Loss 0.3592 Acc 88.75% | Epoch Time 3.07s | Throughput 16267.6 samples/s
+  [Epoch 036][Batch 0098/0098] Loss 0.1195 | Acc 95.70%
+Epoch 036 | LR 0.00100 | Train Loss 0.1195 Acc 95.70% | Test Loss 0.3515 Acc 89.23% | Epoch Time 3.11s | Throughput 16052.3 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.23%
+  [Epoch 037][Batch 0098/0098] Loss 0.1173 | Acc 95.96%
+Epoch 037 | LR 0.00100 | Train Loss 0.1173 Acc 95.96% | Test Loss 0.3619 Acc 89.50% | Epoch Time 3.12s | Throughput 16042.8 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.50%
+  [Epoch 038][Batch 0098/0098] Loss 0.1154 | Acc 95.98%
+Epoch 038 | LR 0.00100 | Train Loss 0.1154 Acc 95.98% | Test Loss 0.3410 Acc 89.74% | Epoch Time 3.09s | Throughput 16184.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.74%
+  [Epoch 039][Batch 0098/0098] Loss 0.1072 | Acc 96.25%
+Epoch 039 | LR 0.00100 | Train Loss 0.1072 Acc 96.25% | Test Loss 0.3713 Acc 89.09% | Epoch Time 3.10s | Throughput 16129.8 samples/s
+  [Epoch 040][Batch 0098/0098] Loss 0.1003 | Acc 96.44%
+Epoch 040 | LR 0.00100 | Train Loss 0.1003 Acc 96.44% | Test Loss 0.5363 Acc 85.68% | Epoch Time 3.08s | Throughput 16246.1 samples/s
+  [Epoch 041][Batch 0098/0098] Loss 0.1034 | Acc 96.36%
+Epoch 041 | LR 0.00100 | Train Loss 0.1034 Acc 96.36% | Test Loss 0.4130 Acc 88.27% | Epoch Time 3.06s | Throughput 16335.4 samples/s
+  [Epoch 042][Batch 0098/0098] Loss 0.0970 | Acc 96.59%
+Epoch 042 | LR 0.00100 | Train Loss 0.0970 Acc 96.59% | Test Loss 0.4589 Acc 87.42% | Epoch Time 3.09s | Throughput 16181.8 samples/s
+  [Epoch 043][Batch 0098/0098] Loss 0.0984 | Acc 96.54%
+Epoch 043 | LR 0.00100 | Train Loss 0.0984 Acc 96.54% | Test Loss 0.3597 Acc 89.44% | Epoch Time 3.09s | Throughput 16173.8 samples/s
+  [Epoch 044][Batch 0098/0098] Loss 0.0984 | Acc 96.64%
+Epoch 044 | LR 0.00100 | Train Loss 0.0984 Acc 96.64% | Test Loss 0.3890 Acc 88.69% | Epoch Time 3.08s | Throughput 16226.9 samples/s
+  [Epoch 045][Batch 0098/0098] Loss 0.0948 | Acc 96.73%
+Epoch 045 | LR 0.00100 | Train Loss 0.0948 Acc 96.73% | Test Loss 0.3663 Acc 89.88% | Epoch Time 3.09s | Throughput 16199.8 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.88%
+  [Epoch 046][Batch 0098/0098] Loss 0.0927 | Acc 96.74%
+Epoch 046 | LR 0.00100 | Train Loss 0.0927 Acc 96.74% | Test Loss 0.3620 Acc 89.66% | Epoch Time 3.08s | Throughput 16212.4 samples/s
+  [Epoch 047][Batch 0098/0098] Loss 0.0913 | Acc 96.76%
+Epoch 047 | LR 0.00100 | Train Loss 0.0913 Acc 96.76% | Test Loss 0.3543 Acc 89.96% | Epoch Time 3.10s | Throughput 16147.7 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.96%
+  [Epoch 048][Batch 0098/0098] Loss 0.0874 | Acc 96.92%
+Epoch 048 | LR 0.00100 | Train Loss 0.0874 Acc 96.92% | Test Loss 0.4302 Acc 88.26% | Epoch Time 3.11s | Throughput 16075.8 samples/s
+  [Epoch 049][Batch 0098/0098] Loss 0.0888 | Acc 96.87%
+Epoch 049 | LR 0.00100 | Train Loss 0.0888 Acc 96.87% | Test Loss 0.4032 Acc 88.64% | Epoch Time 3.08s | Throughput 16253.8 samples/s
+  [Epoch 050][Batch 0098/0098] Loss 0.0889 | Acc 96.90%
+Epoch 050 | LR 0.00100 | Train Loss 0.0889 Acc 96.90% | Test Loss 0.4849 Acc 86.91% | Epoch Time 3.09s | Throughput 16193.2 samples/s
+  [Epoch 051][Batch 0098/0098] Loss 0.0456 | Acc 98.45%
+Epoch 051 | LR 0.00050 | Train Loss 0.0456 Acc 98.45% | Test Loss 0.2898 Acc 92.20% | Epoch Time 3.07s | Throughput 16308.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 92.20%
+  [Epoch 052][Batch 0098/0098] Loss 0.0247 | Acc 99.19%
+Epoch 052 | LR 0.00050 | Train Loss 0.0247 Acc 99.19% | Test Loss 0.3001 Acc 92.26% | Epoch Time 3.10s | Throughput 16104.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 92.26%
+  [Epoch 053][Batch 0098/0098] Loss 0.0234 | Acc 99.21%
+Epoch 053 | LR 0.00050 | Train Loss 0.0234 Acc 99.21% | Test Loss 0.2972 Acc 92.13% | Epoch Time 3.10s | Throughput 16152.6 samples/s
+  [Epoch 054][Batch 0098/0098] Loss 0.0275 | Acc 99.07%
+Epoch 054 | LR 0.00050 | Train Loss 0.0275 Acc 99.07% | Test Loss 0.3088 Acc 91.91% | Epoch Time 3.11s | Throughput 16089.8 samples/s
+  [Epoch 055][Batch 0098/0098] Loss 0.0245 | Acc 99.19%
+Epoch 055 | LR 0.00050 | Train Loss 0.0245 Acc 99.19% | Test Loss 0.3028 Acc 92.19% | Epoch Time 3.13s | Throughput 15964.5 samples/s
+  [Epoch 056][Batch 0098/0098] Loss 0.0255 | Acc 99.19%
+Epoch 056 | LR 0.00050 | Train Loss 0.0255 Acc 99.19% | Test Loss 0.3280 Acc 91.99% | Epoch Time 3.09s | Throughput 16207.0 samples/s
+  [Epoch 057][Batch 0098/0098] Loss 0.0273 | Acc 99.10%
+Epoch 057 | LR 0.00050 | Train Loss 0.0273 Acc 99.10% | Test Loss 0.3501 Acc 91.50% | Epoch Time 3.13s | Throughput 15995.6 samples/s
+  [Epoch 058][Batch 0098/0098] Loss 0.0297 | Acc 99.00%
+Epoch 058 | LR 0.00050 | Train Loss 0.0297 Acc 99.00% | Test Loss 0.3194 Acc 91.55% | Epoch Time 3.04s | Throughput 16423.1 samples/s
+  [Epoch 059][Batch 0098/0098] Loss 0.0389 | Acc 98.60%
+Epoch 059 | LR 0.00050 | Train Loss 0.0389 Acc 98.60% | Test Loss 0.3076 Acc 91.98% | Epoch Time 3.10s | Throughput 16118.7 samples/s
+  [Epoch 060][Batch 0098/0098] Loss 0.0279 | Acc 99.10%
+Epoch 060 | LR 0.00050 | Train Loss 0.0279 Acc 99.10% | Test Loss 0.3357 Acc 91.80% | Epoch Time 3.12s | Throughput 16017.2 samples/s
+  [Epoch 061][Batch 0098/0098] Loss 0.0332 | Acc 98.84%
+Epoch 061 | LR 0.00050 | Train Loss 0.0332 Acc 98.84% | Test Loss 0.3779 Acc 90.41% | Epoch Time 3.09s | Throughput 16193.5 samples/s
+  [Epoch 062][Batch 0098/0098] Loss 0.0302 | Acc 98.97%
+Epoch 062 | LR 0.00050 | Train Loss 0.0302 Acc 98.97% | Test Loss 0.3713 Acc 90.88% | Epoch Time 3.13s | Throughput 15985.4 samples/s
+  [Epoch 063][Batch 0098/0098] Loss 0.0375 | Acc 98.72%
+Epoch 063 | LR 0.00050 | Train Loss 0.0375 Acc 98.72% | Test Loss 0.3185 Acc 91.45% | Epoch Time 3.09s | Throughput 16205.3 samples/s
+  [Epoch 064][Batch 0098/0098] Loss 0.0326 | Acc 98.88%
+Epoch 064 | LR 0.00050 | Train Loss 0.0326 Acc 98.88% | Test Loss 0.4154 Acc 90.39% | Epoch Time 3.11s | Throughput 16076.6 samples/s
+  [Epoch 065][Batch 0098/0098] Loss 0.0340 | Acc 98.85%
+Epoch 065 | LR 0.00050 | Train Loss 0.0340 Acc 98.85% | Test Loss 0.4049 Acc 90.00% | Epoch Time 3.10s | Throughput 16147.6 samples/s
+  [Epoch 066][Batch 0098/0098] Loss 0.0347 | Acc 98.84%
+Epoch 066 | LR 0.00050 | Train Loss 0.0347 Acc 98.84% | Test Loss 0.3941 Acc 90.51% | Epoch Time 3.11s | Throughput 16062.1 samples/s
+  [Epoch 067][Batch 0098/0098] Loss 0.0313 | Acc 98.96%
+Epoch 067 | LR 0.00050 | Train Loss 0.0313 Acc 98.96% | Test Loss 0.4039 Acc 90.60% | Epoch Time 3.08s | Throughput 16219.4 samples/s
+  [Epoch 068][Batch 0098/0098] Loss 0.0338 | Acc 98.82%
+Epoch 068 | LR 0.00050 | Train Loss 0.0338 Acc 98.82% | Test Loss 0.3769 Acc 90.89% | Epoch Time 3.06s | Throughput 16315.9 samples/s
+  [Epoch 069][Batch 0098/0098] Loss 0.0355 | Acc 98.77%
+Epoch 069 | LR 0.00050 | Train Loss 0.0355 Acc 98.77% | Test Loss 0.3452 Acc 91.23% | Epoch Time 3.09s | Throughput 16195.8 samples/s
+  [Epoch 070][Batch 0098/0098] Loss 0.0319 | Acc 98.89%
+Epoch 070 | LR 0.00050 | Train Loss 0.0319 Acc 98.89% | Test Loss 0.3611 Acc 91.25% | Epoch Time 3.09s | Throughput 16157.7 samples/s
+  [Epoch 071][Batch 0098/0098] Loss 0.0299 | Acc 99.00%
+Epoch 071 | LR 0.00050 | Train Loss 0.0299 Acc 99.00% | Test Loss 0.3675 Acc 91.07% | Epoch Time 3.08s | Throughput 16217.8 samples/s
+  [Epoch 072][Batch 0098/0098] Loss 0.0333 | Acc 98.87%
+Epoch 072 | LR 0.00050 | Train Loss 0.0333 Acc 98.87% | Test Loss 0.3734 Acc 90.75% | Epoch Time 3.09s | Throughput 16176.7 samples/s
+  [Epoch 073][Batch 0098/0098] Loss 0.0334 | Acc 98.90%
+Epoch 073 | LR 0.00050 | Train Loss 0.0334 Acc 98.90% | Test Loss 0.3890 Acc 90.58% | Epoch Time 3.09s | Throughput 16177.9 samples/s
+  [Epoch 074][Batch 0098/0098] Loss 0.0321 | Acc 98.95%
+Epoch 074 | LR 0.00050 | Train Loss 0.0321 Acc 98.95% | Test Loss 0.3397 Acc 91.41% | Epoch Time 3.12s | Throughput 16005.9 samples/s
+  [Epoch 075][Batch 0098/0098] Loss 0.0287 | Acc 99.03%
+Epoch 075 | LR 0.00050 | Train Loss 0.0287 Acc 99.03% | Test Loss 0.4051 Acc 90.58% | Epoch Time 3.11s | Throughput 16063.4 samples/s
+  [Epoch 076][Batch 0098/0098] Loss 0.0345 | Acc 98.81%
+Epoch 076 | LR 0.00050 | Train Loss 0.0345 Acc 98.81% | Test Loss 0.3477 Acc 91.16% | Epoch Time 3.08s | Throughput 16250.0 samples/s
+  [Epoch 077][Batch 0098/0098] Loss 0.0280 | Acc 99.07%
+Epoch 077 | LR 0.00050 | Train Loss 0.0280 Acc 99.07% | Test Loss 0.3523 Acc 91.34% | Epoch Time 3.09s | Throughput 16191.7 samples/s
+  [Epoch 078][Batch 0098/0098] Loss 0.0331 | Acc 98.86%
+Epoch 078 | LR 0.00050 | Train Loss 0.0331 Acc 98.86% | Test Loss 0.3537 Acc 91.01% | Epoch Time 3.12s | Throughput 16043.0 samples/s
+  [Epoch 079][Batch 0098/0098] Loss 0.0327 | Acc 98.92%
+Epoch 079 | LR 0.00050 | Train Loss 0.0327 Acc 98.92% | Test Loss 0.3529 Acc 91.18% | Epoch Time 3.08s | Throughput 16252.6 samples/s
+  [Epoch 080][Batch 0098/0098] Loss 0.0275 | Acc 99.04%
+Epoch 080 | LR 0.00050 | Train Loss 0.0275 Acc 99.04% | Test Loss 0.4354 Acc 89.79% | Epoch Time 3.14s | Throughput 15948.8 samples/s
+  [Epoch 081][Batch 0098/0098] Loss 0.0365 | Acc 98.75%
+Epoch 081 | LR 0.00050 | Train Loss 0.0365 Acc 98.75% | Test Loss 0.3489 Acc 91.18% | Epoch Time 3.12s | Throughput 16014.1 samples/s
+  [Epoch 082][Batch 0098/0098] Loss 0.0288 | Acc 99.03%
+Epoch 082 | LR 0.00050 | Train Loss 0.0288 Acc 99.03% | Test Loss 0.3775 Acc 90.48% | Epoch Time 3.08s | Throughput 16250.3 samples/s
+  [Epoch 083][Batch 0098/0098] Loss 0.0316 | Acc 98.91%
+Epoch 083 | LR 0.00050 | Train Loss 0.0316 Acc 98.91% | Test Loss 0.3917 Acc 90.47% | Epoch Time 3.10s | Throughput 16154.6 samples/s
+  [Epoch 084][Batch 0098/0098] Loss 0.0312 | Acc 98.99%
+Epoch 084 | LR 0.00050 | Train Loss 0.0312 Acc 98.99% | Test Loss 0.3604 Acc 91.43% | Epoch Time 3.08s | Throughput 16251.7 samples/s
+  [Epoch 085][Batch 0098/0098] Loss 0.0314 | Acc 98.92%
+Epoch 085 | LR 0.00050 | Train Loss 0.0314 Acc 98.92% | Test Loss 0.3615 Acc 91.01% | Epoch Time 3.11s | Throughput 16071.2 samples/s
+  [Epoch 086][Batch 0098/0098] Loss 0.0337 | Acc 98.87%
+Epoch 086 | LR 0.00050 | Train Loss 0.0337 Acc 98.87% | Test Loss 0.3519 Acc 91.14% | Epoch Time 3.06s | Throughput 16344.6 samples/s
+  [Epoch 087][Batch 0098/0098] Loss 0.0268 | Acc 99.08%
+Epoch 087 | LR 0.00050 | Train Loss 0.0268 Acc 99.08% | Test Loss 0.3761 Acc 90.92% | Epoch Time 3.10s | Throughput 16118.5 samples/s
+  [Epoch 088][Batch 0098/0098] Loss 0.0330 | Acc 98.89%
+Epoch 088 | LR 0.00050 | Train Loss 0.0330 Acc 98.89% | Test Loss 0.3740 Acc 91.13% | Epoch Time 3.22s | Throughput 15528.3 samples/s
+  [Epoch 089][Batch 0098/0098] Loss 0.0319 | Acc 98.90%
+Epoch 089 | LR 0.00050 | Train Loss 0.0319 Acc 98.90% | Test Loss 0.3679 Acc 91.31% | Epoch Time 3.07s | Throughput 16309.4 samples/s
+  [Epoch 090][Batch 0098/0098] Loss 0.0276 | Acc 99.10%
+Epoch 090 | LR 0.00050 | Train Loss 0.0276 Acc 99.10% | Test Loss 0.3575 Acc 91.23% | Epoch Time 3.03s | Throughput 16475.9 samples/s
+  [Epoch 091][Batch 0098/0098] Loss 0.0300 | Acc 99.02%
+Epoch 091 | LR 0.00050 | Train Loss 0.0300 Acc 99.02% | Test Loss 0.3852 Acc 90.85% | Epoch Time 3.06s | Throughput 16338.3 samples/s
+  [Epoch 092][Batch 0098/0098] Loss 0.0305 | Acc 98.95%
+Epoch 092 | LR 0.00050 | Train Loss 0.0305 Acc 98.95% | Test Loss 0.3636 Acc 90.92% | Epoch Time 3.09s | Throughput 16185.7 samples/s
+  [Epoch 093][Batch 0098/0098] Loss 0.0311 | Acc 98.94%
+Epoch 093 | LR 0.00050 | Train Loss 0.0311 Acc 98.94% | Test Loss 0.3760 Acc 91.17% | Epoch Time 3.07s | Throughput 16264.0 samples/s
+  [Epoch 094][Batch 0098/0098] Loss 0.0319 | Acc 98.97%
+Epoch 094 | LR 0.00050 | Train Loss 0.0319 Acc 98.97% | Test Loss 0.3875 Acc 90.55% | Epoch Time 3.04s | Throughput 16438.2 samples/s
+  [Epoch 095][Batch 0098/0098] Loss 0.0236 | Acc 99.19%
+Epoch 095 | LR 0.00050 | Train Loss 0.0236 Acc 99.19% | Test Loss 0.3859 Acc 90.55% | Epoch Time 3.07s | Throughput 16279.1 samples/s
+  [Epoch 096][Batch 0098/0098] Loss 0.0310 | Acc 98.99%
+Epoch 096 | LR 0.00050 | Train Loss 0.0310 Acc 98.99% | Test Loss 0.3660 Acc 91.38% | Epoch Time 3.07s | Throughput 16262.4 samples/s
+  [Epoch 097][Batch 0098/0098] Loss 0.0263 | Acc 99.13%
+Epoch 097 | LR 0.00050 | Train Loss 0.0263 Acc 99.13% | Test Loss 0.3775 Acc 90.94% | Epoch Time 3.09s | Throughput 16185.4 samples/s
+  [Epoch 098][Batch 0098/0098] Loss 0.0321 | Acc 98.94%
+Epoch 098 | LR 0.00050 | Train Loss 0.0321 Acc 98.94% | Test Loss 0.4003 Acc 90.51% | Epoch Time 3.06s | Throughput 16320.8 samples/s
+  [Epoch 099][Batch 0098/0098] Loss 0.0291 | Acc 99.02%
+Epoch 099 | LR 0.00050 | Train Loss 0.0291 Acc 99.02% | Test Loss 0.3857 Acc 91.23% | Epoch Time 3.10s | Throughput 16152.0 samples/s
+  [Epoch 100][Batch 0098/0098] Loss 0.0305 | Acc 98.97%
+Epoch 100 | LR 0.00050 | Train Loss 0.0305 Acc 98.97% | Test Loss 0.4154 Acc 90.38% | Epoch Time 3.13s | Throughput 15980.6 samples/s
+  [Epoch 101][Batch 0098/0098] Loss 0.0151 | Acc 99.53%
+Epoch 101 | LR 0.00025 | Train Loss 0.0151 Acc 99.53% | Test Loss 0.3062 Acc 92.78% | Epoch Time 3.05s | Throughput 16412.2 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 92.78%
+  [Epoch 102][Batch 0098/0098] Loss 0.0090 | Acc 99.73%
+Epoch 102 | LR 0.00025 | Train Loss 0.0090 Acc 99.73% | Test Loss 0.3004 Acc 92.62% | Epoch Time 3.07s | Throughput 16293.2 samples/s
+  [Epoch 103][Batch 0098/0098] Loss 0.0055 | Acc 99.87%
+Epoch 103 | LR 0.00025 | Train Loss 0.0055 Acc 99.87% | Test Loss 0.3048 Acc 92.86% | Epoch Time 3.09s | Throughput 16164.8 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 92.86%
+  [Epoch 104][Batch 0098/0098] Loss 0.0049 | Acc 99.87%
+Epoch 104 | LR 0.00025 | Train Loss 0.0049 Acc 99.87% | Test Loss 0.3140 Acc 92.69% | Epoch Time 3.04s | Throughput 16464.5 samples/s
+  [Epoch 105][Batch 0098/0098] Loss 0.0055 | Acc 99.84%
+Epoch 105 | LR 0.00025 | Train Loss 0.0055 Acc 99.84% | Test Loss 0.3278 Acc 92.69% | Epoch Time 3.12s | Throughput 16026.1 samples/s
+  [Epoch 106][Batch 0098/0098] Loss 0.0041 | Acc 99.90%
+Epoch 106 | LR 0.00025 | Train Loss 0.0041 Acc 99.90% | Test Loss 0.3255 Acc 92.92% | Epoch Time 3.09s | Throughput 16162.4 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 92.92%
+  [Epoch 107][Batch 0098/0098] Loss 0.0046 | Acc 99.89%
+Epoch 107 | LR 0.00025 | Train Loss 0.0046 Acc 99.89% | Test Loss 0.3303 Acc 92.87% | Epoch Time 3.09s | Throughput 16205.9 samples/s
+  [Epoch 108][Batch 0098/0098] Loss 0.0040 | Acc 99.91%
+Epoch 108 | LR 0.00025 | Train Loss 0.0040 Acc 99.91% | Test Loss 0.3218 Acc 93.04% | Epoch Time 3.07s | Throughput 16293.2 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 93.04%
+  [Epoch 109][Batch 0098/0098] Loss 0.0044 | Acc 99.87%
+Epoch 109 | LR 0.00025 | Train Loss 0.0044 Acc 99.87% | Test Loss 0.3465 Acc 92.48% | Epoch Time 3.06s | Throughput 16325.8 samples/s
+  [Epoch 110][Batch 0098/0098] Loss 0.0059 | Acc 99.83%
+Epoch 110 | LR 0.00025 | Train Loss 0.0059 Acc 99.83% | Test Loss 0.3659 Acc 92.26% | Epoch Time 3.04s | Throughput 16447.6 samples/s
+  [Epoch 111][Batch 0098/0098] Loss 0.0082 | Acc 99.74%
+Epoch 111 | LR 0.00025 | Train Loss 0.0082 Acc 99.74% | Test Loss 0.3541 Acc 92.50% | Epoch Time 3.09s | Throughput 16183.3 samples/s
+  [Epoch 112][Batch 0098/0098] Loss 0.0078 | Acc 99.77%
+Epoch 112 | LR 0.00025 | Train Loss 0.0078 Acc 99.77% | Test Loss 0.3588 Acc 92.23% | Epoch Time 3.05s | Throughput 16374.3 samples/s
+  [Epoch 113][Batch 0098/0098] Loss 0.0098 | Acc 99.69%
+Epoch 113 | LR 0.00025 | Train Loss 0.0098 Acc 99.69% | Test Loss 0.3854 Acc 92.01% | Epoch Time 3.09s | Throughput 16155.5 samples/s
+  [Epoch 114][Batch 0098/0098] Loss 0.0113 | Acc 99.62%
+Epoch 114 | LR 0.00025 | Train Loss 0.0113 Acc 99.62% | Test Loss 0.3615 Acc 92.07% | Epoch Time 3.08s | Throughput 16231.0 samples/s
+  [Epoch 115][Batch 0098/0098] Loss 0.0113 | Acc 99.64%
+Epoch 115 | LR 0.00025 | Train Loss 0.0113 Acc 99.64% | Test Loss 0.3584 Acc 92.22% | Epoch Time 3.09s | Throughput 16155.6 samples/s
+  [Epoch 116][Batch 0098/0098] Loss 0.0124 | Acc 99.60%
+Epoch 116 | LR 0.00025 | Train Loss 0.0124 Acc 99.60% | Test Loss 0.3523 Acc 92.18% | Epoch Time 3.08s | Throughput 16210.5 samples/s
+  [Epoch 117][Batch 0098/0098] Loss 0.0128 | Acc 99.58%
+Epoch 117 | LR 0.00025 | Train Loss 0.0128 Acc 99.58% | Test Loss 0.3518 Acc 91.87% | Epoch Time 3.08s | Throughput 16220.1 samples/s
+  [Epoch 118][Batch 0098/0098] Loss 0.0121 | Acc 99.62%
+Epoch 118 | LR 0.00025 | Train Loss 0.0121 Acc 99.62% | Test Loss 0.3623 Acc 92.29% | Epoch Time 3.04s | Throughput 16450.6 samples/s
+  [Epoch 119][Batch 0098/0098] Loss 0.0113 | Acc 99.63%
+Epoch 119 | LR 0.00025 | Train Loss 0.0113 Acc 99.63% | Test Loss 0.3404 Acc 92.54% | Epoch Time 3.08s | Throughput 16226.0 samples/s
+  [Epoch 120][Batch 0098/0098] Loss 0.0103 | Acc 99.68%
+Epoch 120 | LR 0.00025 | Train Loss 0.0103 Acc 99.68% | Test Loss 0.3790 Acc 91.82% | Epoch Time 3.12s | Throughput 16049.9 samples/s
+  [Epoch 121][Batch 0098/0098] Loss 0.0099 | Acc 99.67%
+Epoch 121 | LR 0.00025 | Train Loss 0.0099 Acc 99.67% | Test Loss 0.3867 Acc 91.93% | Epoch Time 3.04s | Throughput 16433.1 samples/s
+  [Epoch 122][Batch 0098/0098] Loss 0.0103 | Acc 99.69%
+Epoch 122 | LR 0.00025 | Train Loss 0.0103 Acc 99.69% | Test Loss 0.3797 Acc 91.58% | Epoch Time 3.07s | Throughput 16277.3 samples/s
+  [Epoch 123][Batch 0098/0098] Loss 0.0130 | Acc 99.54%
+Epoch 123 | LR 0.00025 | Train Loss 0.0130 Acc 99.54% | Test Loss 0.3923 Acc 91.45% | Epoch Time 3.09s | Throughput 16195.0 samples/s
+  [Epoch 124][Batch 0098/0098] Loss 0.0123 | Acc 99.61%
+Epoch 124 | LR 0.00025 | Train Loss 0.0123 Acc 99.61% | Test Loss 0.3565 Acc 92.38% | Epoch Time 3.07s | Throughput 16310.7 samples/s
+  [Epoch 125][Batch 0098/0098] Loss 0.0114 | Acc 99.59%
+Epoch 125 | LR 0.00025 | Train Loss 0.0114 Acc 99.59% | Test Loss 0.3863 Acc 91.91% | Epoch Time 3.07s | Throughput 16275.5 samples/s
+  [Epoch 126][Batch 0098/0098] Loss 0.0106 | Acc 99.67%
+Epoch 126 | LR 0.00025 | Train Loss 0.0106 Acc 99.67% | Test Loss 0.3445 Acc 92.11% | Epoch Time 3.08s | Throughput 16227.0 samples/s
+  [Epoch 127][Batch 0098/0098] Loss 0.0113 | Acc 99.64%
+Epoch 127 | LR 0.00025 | Train Loss 0.0113 Acc 99.64% | Test Loss 0.3511 Acc 91.98% | Epoch Time 3.07s | Throughput 16271.3 samples/s
+  [Epoch 128][Batch 0098/0098] Loss 0.0090 | Acc 99.72%
+Epoch 128 | LR 0.00025 | Train Loss 0.0090 Acc 99.72% | Test Loss 0.3470 Acc 92.22% | Epoch Time 3.04s | Throughput 16426.8 samples/s
+  [Epoch 129][Batch 0098/0098] Loss 0.0105 | Acc 99.65%
+Epoch 129 | LR 0.00025 | Train Loss 0.0105 Acc 99.65% | Test Loss 0.3910 Acc 91.85% | Epoch Time 3.10s | Throughput 16153.6 samples/s
+  [Epoch 130][Batch 0098/0098] Loss 0.0137 | Acc 99.54%
+Epoch 130 | LR 0.00025 | Train Loss 0.0137 Acc 99.54% | Test Loss 0.3531 Acc 92.03% | Epoch Time 3.06s | Throughput 16355.9 samples/s
+  [Epoch 131][Batch 0098/0098] Loss 0.0109 | Acc 99.66%
+Epoch 131 | LR 0.00025 | Train Loss 0.0109 Acc 99.66% | Test Loss 0.3552 Acc 92.01% | Epoch Time 3.06s | Throughput 16319.1 samples/s
+  [Epoch 132][Batch 0098/0098] Loss 0.0111 | Acc 99.63%
+Epoch 132 | LR 0.00025 | Train Loss 0.0111 Acc 99.63% | Test Loss 0.3708 Acc 91.78% | Epoch Time 3.06s | Throughput 16326.4 samples/s
+  [Epoch 133][Batch 0098/0098] Loss 0.0093 | Acc 99.70%
+Epoch 133 | LR 0.00025 | Train Loss 0.0093 Acc 99.70% | Test Loss 0.3519 Acc 92.20% | Epoch Time 3.10s | Throughput 16135.0 samples/s
+  [Epoch 134][Batch 0098/0098] Loss 0.0092 | Acc 99.70%
+Epoch 134 | LR 0.00025 | Train Loss 0.0092 Acc 99.70% | Test Loss 0.3736 Acc 92.00% | Epoch Time 3.08s | Throughput 16228.6 samples/s
+  [Epoch 135][Batch 0098/0098] Loss 0.0129 | Acc 99.59%
+Epoch 135 | LR 0.00025 | Train Loss 0.0129 Acc 99.59% | Test Loss 0.3787 Acc 91.53% | Epoch Time 3.04s | Throughput 16468.5 samples/s
+  [Epoch 136][Batch 0098/0098] Loss 0.0121 | Acc 99.61%
+Epoch 136 | LR 0.00025 | Train Loss 0.0121 Acc 99.61% | Test Loss 0.3633 Acc 91.88% | Epoch Time 3.08s | Throughput 16238.7 samples/s
+  [Epoch 137][Batch 0098/0098] Loss 0.0119 | Acc 99.63%
+Epoch 137 | LR 0.00025 | Train Loss 0.0119 Acc 99.63% | Test Loss 0.3479 Acc 92.17% | Epoch Time 3.12s | Throughput 16036.4 samples/s
+  [Epoch 138][Batch 0098/0098] Loss 0.0127 | Acc 99.59%
+Epoch 138 | LR 0.00025 | Train Loss 0.0127 Acc 99.59% | Test Loss 0.3777 Acc 91.68% | Epoch Time 3.10s | Throughput 16127.3 samples/s
+  [Epoch 139][Batch 0098/0098] Loss 0.0085 | Acc 99.73%
+Epoch 139 | LR 0.00025 | Train Loss 0.0085 Acc 99.73% | Test Loss 0.3633 Acc 91.92% | Epoch Time 3.07s | Throughput 16280.8 samples/s
+  [Epoch 140][Batch 0098/0098] Loss 0.0117 | Acc 99.62%
+Epoch 140 | LR 0.00025 | Train Loss 0.0117 Acc 99.62% | Test Loss 0.3585 Acc 92.11% | Epoch Time 3.09s | Throughput 16197.4 samples/s
+  [Epoch 141][Batch 0098/0098] Loss 0.0143 | Acc 99.57%
+Epoch 141 | LR 0.00025 | Train Loss 0.0143 Acc 99.57% | Test Loss 0.3836 Acc 91.56% | Epoch Time 3.08s | Throughput 16211.4 samples/s
+  [Epoch 142][Batch 0098/0098] Loss 0.0126 | Acc 99.59%
+Epoch 142 | LR 0.00025 | Train Loss 0.0126 Acc 99.59% | Test Loss 0.3714 Acc 91.80% | Epoch Time 3.08s | Throughput 16235.7 samples/s
+  [Epoch 143][Batch 0098/0098] Loss 0.0128 | Acc 99.61%
+Epoch 143 | LR 0.00025 | Train Loss 0.0128 Acc 99.61% | Test Loss 0.3518 Acc 91.84% | Epoch Time 3.05s | Throughput 16373.6 samples/s
+  [Epoch 144][Batch 0098/0098] Loss 0.0100 | Acc 99.67%
+Epoch 144 | LR 0.00025 | Train Loss 0.0100 Acc 99.67% | Test Loss 0.3612 Acc 91.65% | Epoch Time 3.06s | Throughput 16316.4 samples/s
+  [Epoch 145][Batch 0098/0098] Loss 0.0090 | Acc 99.72%
+Epoch 145 | LR 0.00025 | Train Loss 0.0090 Acc 99.72% | Test Loss 0.3781 Acc 91.90% | Epoch Time 3.07s | Throughput 16284.6 samples/s
+  [Epoch 146][Batch 0098/0098] Loss 0.0114 | Acc 99.63%
+Epoch 146 | LR 0.00025 | Train Loss 0.0114 Acc 99.63% | Test Loss 0.3835 Acc 92.22% | Epoch Time 3.07s | Throughput 16301.4 samples/s
+  [Epoch 147][Batch 0098/0098] Loss 0.0115 | Acc 99.63%
+Epoch 147 | LR 0.00025 | Train Loss 0.0115 Acc 99.63% | Test Loss 0.3826 Acc 91.85% | Epoch Time 3.07s | Throughput 16296.6 samples/s
+  [Epoch 148][Batch 0098/0098] Loss 0.0123 | Acc 99.60%
+Epoch 148 | LR 0.00025 | Train Loss 0.0123 Acc 99.60% | Test Loss 0.3402 Acc 92.32% | Epoch Time 3.07s | Throughput 16289.0 samples/s
+  [Epoch 149][Batch 0098/0098] Loss 0.0098 | Acc 99.68%
+Epoch 149 | LR 0.00025 | Train Loss 0.0098 Acc 99.68% | Test Loss 0.4172 Acc 91.16% | Epoch Time 3.04s | Throughput 16436.2 samples/s
+  [Epoch 150][Batch 0098/0098] Loss 0.0113 | Acc 99.63%
+Epoch 150 | LR 0.00025 | Train Loss 0.0113 Acc 99.63% | Test Loss 0.4040 Acc 91.52% | Epoch Time 3.09s | Throughput 16183.0 samples/s
+  [Epoch 151][Batch 0098/0098] Loss 0.0069 | Acc 99.79%
+Epoch 151 | LR 0.00013 | Train Loss 0.0069 Acc 99.79% | Test Loss 0.3378 Acc 92.70% | Epoch Time 3.08s | Throughput 16236.9 samples/s
+  [Epoch 152][Batch 0098/0098] Loss 0.0033 | Acc 99.92%
+Epoch 152 | LR 0.00013 | Train Loss 0.0033 Acc 99.92% | Test Loss 0.3274 Acc 92.76% | Epoch Time 3.10s | Throughput 16144.2 samples/s
+  [Epoch 153][Batch 0098/0098] Loss 0.0024 | Acc 99.95%
+Epoch 153 | LR 0.00013 | Train Loss 0.0024 Acc 99.95% | Test Loss 0.3305 Acc 92.97% | Epoch Time 3.08s | Throughput 16224.7 samples/s
+  [Epoch 154][Batch 0098/0098] Loss 0.0018 | Acc 99.96%
+Epoch 154 | LR 0.00013 | Train Loss 0.0018 Acc 99.96% | Test Loss 0.3194 Acc 92.90% | Epoch Time 3.06s | Throughput 16334.5 samples/s
+  [Epoch 155][Batch 0098/0098] Loss 0.0015 | Acc 99.98%
+Epoch 155 | LR 0.00013 | Train Loss 0.0015 Acc 99.98% | Test Loss 0.3186 Acc 93.06% | Epoch Time 3.12s | Throughput 16048.6 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 93.06%
+  [Epoch 156][Batch 0098/0098] Loss 0.0016 | Acc 99.97%
+Epoch 156 | LR 0.00013 | Train Loss 0.0016 Acc 99.97% | Test Loss 0.3186 Acc 93.13% | Epoch Time 3.08s | Throughput 16229.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 93.13%
+  [Epoch 157][Batch 0098/0098] Loss 0.0016 | Acc 99.96%
+Epoch 157 | LR 0.00013 | Train Loss 0.0016 Acc 99.96% | Test Loss 0.3229 Acc 93.10% | Epoch Time 3.09s | Throughput 16188.5 samples/s
+  [Epoch 158][Batch 0098/0098] Loss 0.0018 | Acc 99.96%
+Epoch 158 | LR 0.00013 | Train Loss 0.0018 Acc 99.96% | Test Loss 0.3219 Acc 93.08% | Epoch Time 3.10s | Throughput 16116.7 samples/s
+  [Epoch 159][Batch 0098/0098] Loss 0.0019 | Acc 99.96%
+Epoch 159 | LR 0.00013 | Train Loss 0.0019 Acc 99.96% | Test Loss 0.3387 Acc 92.91% | Epoch Time 3.06s | Throughput 16332.1 samples/s
+  [Epoch 160][Batch 0098/0098] Loss 0.0014 | Acc 99.97%
+Epoch 160 | LR 0.00013 | Train Loss 0.0014 Acc 99.97% | Test Loss 0.3396 Acc 92.93% | Epoch Time 3.04s | Throughput 16428.9 samples/s
+  [Epoch 161][Batch 0098/0098] Loss 0.0017 | Acc 99.98%
+Epoch 161 | LR 0.00013 | Train Loss 0.0017 Acc 99.98% | Test Loss 0.3280 Acc 92.99% | Epoch Time 3.09s | Throughput 16201.0 samples/s
+  [Epoch 162][Batch 0098/0098] Loss 0.0014 | Acc 99.98%
+Epoch 162 | LR 0.00013 | Train Loss 0.0014 Acc 99.98% | Test Loss 0.3347 Acc 92.95% | Epoch Time 3.06s | Throughput 16360.6 samples/s
+  [Epoch 163][Batch 0098/0098] Loss 0.0025 | Acc 99.94%
+Epoch 163 | LR 0.00013 | Train Loss 0.0025 Acc 99.94% | Test Loss 0.3584 Acc 92.59% | Epoch Time 3.08s | Throughput 16222.6 samples/s
+  [Epoch 164][Batch 0098/0098] Loss 0.0021 | Acc 99.95%
+Epoch 164 | LR 0.00013 | Train Loss 0.0021 Acc 99.95% | Test Loss 0.3294 Acc 93.10% | Epoch Time 3.08s | Throughput 16249.5 samples/s
+  [Epoch 165][Batch 0098/0098] Loss 0.0026 | Acc 99.93%
+Epoch 165 | LR 0.00013 | Train Loss 0.0026 Acc 99.93% | Test Loss 0.3403 Acc 92.99% | Epoch Time 3.11s | Throughput 16098.9 samples/s
+  [Epoch 166][Batch 0098/0098] Loss 0.0024 | Acc 99.93%
+Epoch 166 | LR 0.00013 | Train Loss 0.0024 Acc 99.93% | Test Loss 0.3826 Acc 92.03% | Epoch Time 3.11s | Throughput 16060.6 samples/s
+  [Epoch 167][Batch 0098/0098] Loss 0.0033 | Acc 99.91%
+Epoch 167 | LR 0.00013 | Train Loss 0.0033 Acc 99.91% | Test Loss 0.3524 Acc 92.62% | Epoch Time 3.09s | Throughput 16156.5 samples/s
+  [Epoch 168][Batch 0098/0098] Loss 0.0044 | Acc 99.87%
+Epoch 168 | LR 0.00013 | Train Loss 0.0044 Acc 99.87% | Test Loss 0.3497 Acc 92.66% | Epoch Time 3.13s | Throughput 15976.6 samples/s
+  [Epoch 169][Batch 0098/0098] Loss 0.0044 | Acc 99.86%
+Epoch 169 | LR 0.00013 | Train Loss 0.0044 Acc 99.86% | Test Loss 0.3667 Acc 92.38% | Epoch Time 3.09s | Throughput 16170.1 samples/s
+  [Epoch 170][Batch 0098/0098] Loss 0.0055 | Acc 99.82%
+Epoch 170 | LR 0.00013 | Train Loss 0.0055 Acc 99.82% | Test Loss 0.3774 Acc 92.07% | Epoch Time 3.11s | Throughput 16081.9 samples/s
+  [Epoch 171][Batch 0098/0098] Loss 0.0049 | Acc 99.87%
+Epoch 171 | LR 0.00013 | Train Loss 0.0049 Acc 99.87% | Test Loss 0.3440 Acc 92.69% | Epoch Time 3.11s | Throughput 16093.9 samples/s
+  [Epoch 172][Batch 0098/0098] Loss 0.0040 | Acc 99.89%
+Epoch 172 | LR 0.00013 | Train Loss 0.0040 Acc 99.89% | Test Loss 0.3662 Acc 92.26% | Epoch Time 3.10s | Throughput 16122.9 samples/s
+  [Epoch 173][Batch 0098/0098] Loss 0.0044 | Acc 99.88%
+Epoch 173 | LR 0.00013 | Train Loss 0.0044 Acc 99.88% | Test Loss 0.3703 Acc 92.25% | Epoch Time 3.10s | Throughput 16129.2 samples/s
+  [Epoch 174][Batch 0098/0098] Loss 0.0058 | Acc 99.83%
+Epoch 174 | LR 0.00013 | Train Loss 0.0058 Acc 99.83% | Test Loss 0.3700 Acc 92.35% | Epoch Time 3.10s | Throughput 16107.6 samples/s
+  [Epoch 175][Batch 0098/0098] Loss 0.0059 | Acc 99.82%
+Epoch 175 | LR 0.00013 | Train Loss 0.0059 Acc 99.82% | Test Loss 0.3567 Acc 92.65% | Epoch Time 3.10s | Throughput 16133.2 samples/s
+  [Epoch 176][Batch 0098/0098] Loss 0.0038 | Acc 99.89%
+Epoch 176 | LR 0.00013 | Train Loss 0.0038 Acc 99.89% | Test Loss 0.3457 Acc 92.66% | Epoch Time 3.12s | Throughput 16010.4 samples/s
+  [Epoch 177][Batch 0098/0098] Loss 0.0046 | Acc 99.87%
+Epoch 177 | LR 0.00013 | Train Loss 0.0046 Acc 99.87% | Test Loss 0.3364 Acc 92.73% | Epoch Time 3.09s | Throughput 16180.0 samples/s
+  [Epoch 178][Batch 0098/0098] Loss 0.0040 | Acc 99.90%
+Epoch 178 | LR 0.00013 | Train Loss 0.0040 Acc 99.90% | Test Loss 0.3539 Acc 92.62% | Epoch Time 3.10s | Throughput 16128.9 samples/s
+  [Epoch 179][Batch 0098/0098] Loss 0.0029 | Acc 99.93%
+Epoch 179 | LR 0.00013 | Train Loss 0.0029 Acc 99.93% | Test Loss 0.3691 Acc 92.41% | Epoch Time 3.12s | Throughput 16035.9 samples/s
+  [Epoch 180][Batch 0098/0098] Loss 0.0028 | Acc 99.94%
+Epoch 180 | LR 0.00013 | Train Loss 0.0028 Acc 99.94% | Test Loss 0.3450 Acc 92.54% | Epoch Time 3.07s | Throughput 16309.7 samples/s
+  [Epoch 181][Batch 0098/0098] Loss 0.0031 | Acc 99.91%
+Epoch 181 | LR 0.00013 | Train Loss 0.0031 Acc 99.91% | Test Loss 0.3582 Acc 92.77% | Epoch Time 3.14s | Throughput 15946.6 samples/s
+  [Epoch 182][Batch 0098/0098] Loss 0.0036 | Acc 99.91%
+Epoch 182 | LR 0.00013 | Train Loss 0.0036 Acc 99.91% | Test Loss 0.3756 Acc 92.16% | Epoch Time 3.11s | Throughput 16070.9 samples/s
+  [Epoch 183][Batch 0098/0098] Loss 0.0046 | Acc 99.85%
+Epoch 183 | LR 0.00013 | Train Loss 0.0046 Acc 99.85% | Test Loss 0.3598 Acc 92.85% | Epoch Time 3.12s | Throughput 16038.2 samples/s
+  [Epoch 184][Batch 0098/0098] Loss 0.0045 | Acc 99.86%
+Epoch 184 | LR 0.00013 | Train Loss 0.0045 Acc 99.86% | Test Loss 0.3562 Acc 92.42% | Epoch Time 3.08s | Throughput 16229.7 samples/s
+  [Epoch 185][Batch 0098/0098] Loss 0.0038 | Acc 99.88%
+Epoch 185 | LR 0.00013 | Train Loss 0.0038 Acc 99.88% | Test Loss 0.3854 Acc 92.26% | Epoch Time 3.11s | Throughput 16076.1 samples/s
+  [Epoch 186][Batch 0098/0098] Loss 0.0041 | Acc 99.88%
+Epoch 186 | LR 0.00013 | Train Loss 0.0041 Acc 99.88% | Test Loss 0.3721 Acc 92.55% | Epoch Time 3.13s | Throughput 15992.0 samples/s
+  [Epoch 187][Batch 0098/0098] Loss 0.0072 | Acc 99.79%
+Epoch 187 | LR 0.00013 | Train Loss 0.0072 Acc 99.79% | Test Loss 0.3681 Acc 92.38% | Epoch Time 3.07s | Throughput 16310.7 samples/s
+  [Epoch 188][Batch 0098/0098] Loss 0.0066 | Acc 99.79%
+Epoch 188 | LR 0.00013 | Train Loss 0.0066 Acc 99.79% | Test Loss 0.3537 Acc 92.30% | Epoch Time 3.10s | Throughput 16133.0 samples/s
+  [Epoch 189][Batch 0098/0098] Loss 0.0049 | Acc 99.86%
+Epoch 189 | LR 0.00013 | Train Loss 0.0049 Acc 99.86% | Test Loss 0.3609 Acc 92.51% | Epoch Time 3.10s | Throughput 16116.6 samples/s
+  [Epoch 190][Batch 0098/0098] Loss 0.0045 | Acc 99.87%
+Epoch 190 | LR 0.00013 | Train Loss 0.0045 Acc 99.87% | Test Loss 0.3446 Acc 92.29% | Epoch Time 3.11s | Throughput 16101.4 samples/s
+  [Epoch 191][Batch 0098/0098] Loss 0.0037 | Acc 99.89%
+Epoch 191 | LR 0.00013 | Train Loss 0.0037 Acc 99.89% | Test Loss 0.3619 Acc 92.23% | Epoch Time 3.08s | Throughput 16259.8 samples/s
+  [Epoch 192][Batch 0098/0098] Loss 0.0039 | Acc 99.91%
+Epoch 192 | LR 0.00013 | Train Loss 0.0039 Acc 99.91% | Test Loss 0.3559 Acc 92.47% | Epoch Time 3.13s | Throughput 15994.5 samples/s
+  [Epoch 193][Batch 0098/0098] Loss 0.0032 | Acc 99.93%
+Epoch 193 | LR 0.00013 | Train Loss 0.0032 Acc 99.93% | Test Loss 0.3558 Acc 92.49% | Epoch Time 3.09s | Throughput 16161.5 samples/s
+  [Epoch 194][Batch 0098/0098] Loss 0.0033 | Acc 99.92%
+Epoch 194 | LR 0.00013 | Train Loss 0.0033 Acc 99.92% | Test Loss 0.3481 Acc 92.42% | Epoch Time 3.08s | Throughput 16231.1 samples/s
+  [Epoch 195][Batch 0098/0098] Loss 0.0027 | Acc 99.93%
+Epoch 195 | LR 0.00013 | Train Loss 0.0027 Acc 99.93% | Test Loss 0.3354 Acc 92.63% | Epoch Time 3.10s | Throughput 16154.6 samples/s
+  [Epoch 196][Batch 0098/0098] Loss 0.0043 | Acc 99.87%
+Epoch 196 | LR 0.00013 | Train Loss 0.0043 Acc 99.87% | Test Loss 0.3572 Acc 92.60% | Epoch Time 3.09s | Throughput 16184.5 samples/s
+  [Epoch 197][Batch 0098/0098] Loss 0.0032 | Acc 99.92%
+Epoch 197 | LR 0.00013 | Train Loss 0.0032 Acc 99.92% | Test Loss 0.3356 Acc 92.79% | Epoch Time 3.13s | Throughput 15951.4 samples/s
+  [Epoch 198][Batch 0098/0098] Loss 0.0043 | Acc 99.87%
+Epoch 198 | LR 0.00013 | Train Loss 0.0043 Acc 99.87% | Test Loss 0.3713 Acc 91.86% | Epoch Time 3.09s | Throughput 16187.9 samples/s
+  [Epoch 199][Batch 0098/0098] Loss 0.0046 | Acc 99.86%
+Epoch 199 | LR 0.00013 | Train Loss 0.0046 Acc 99.86% | Test Loss 0.3881 Acc 92.06% | Epoch Time 3.09s | Throughput 16158.3 samples/s
+  [Epoch 200][Batch 0098/0098] Loss 0.0048 | Acc 99.85%
+Epoch 200 | LR 0.00013 | Train Loss 0.0048 Acc 99.85% | Test Loss 0.3642 Acc 92.21% | Epoch Time 3.11s | Throughput 16087.8 samples/s
+训练结束，最佳测试准确率: 93.13%
+Saved training curves to: /home/airhust/homework/cnn_cifar/training_curves.png
+Saved final model to: /home/airhust/homework/cnn_cifar/resnet_cifar10_gpu_final_verbose.pth

@@ -1,0 +1,182 @@
+Using seed: 8102
+Using device: cuda
+Downloading dataset via kagglehub...
+Downloading from https://www.kaggle.com/api/v1/datasets/download/splcher/animefacedataset?dataset_version_number=3...
+Extracting files...
+Dataset directory: /home/airhust/.cache/kagglehub/datasets/splcher/animefacedataset/versions/3/images
+Starting training...
+[Epoch 1/50] [Batch 1/248] Loss_D: 1.9059 Loss_G: 1.8872 D(x): 0.3051 D(G(z)): 0.2773/0.1974
+[Epoch 1/50] [Batch 101/248] Loss_D: 0.3908 Loss_G: 6.3235 D(x): 0.8584 D(G(z)): 0.0512/0.0037
+[Epoch 1/50] [Batch 201/248] Loss_D: 0.9597 Loss_G: 11.2032 D(x): 0.9485 D(G(z)): 0.4690/0.0002
+Saved checkpoint to outputs/checkpoint_epoch_001.pt
+[Epoch 2/50] [Batch 53/248] Loss_D: 0.7579 Loss_G: 5.4980 D(x): 0.6173 D(G(z)): 0.0152/0.0084
+[Epoch 2/50] [Batch 153/248] Loss_D: 0.4066 Loss_G: 6.4940 D(x): 0.8713 D(G(z)): 0.1986/0.0021
+Saved checkpoint to outputs/checkpoint_epoch_002.pt
+[Epoch 3/50] [Batch 5/248] Loss_D: 1.2878 Loss_G: 8.7177 D(x): 0.8968 D(G(z)): 0.6225/0.0004
+[Epoch 3/50] [Batch 105/248] Loss_D: 0.6611 Loss_G: 7.6827 D(x): 0.8819 D(G(z)): 0.3444/0.0011
+[Epoch 3/50] [Batch 205/248] Loss_D: 0.8478 Loss_G: 9.2992 D(x): 0.8593 D(G(z)): 0.4249/0.0002
+Saved checkpoint to outputs/checkpoint_epoch_003.pt
+[Epoch 4/50] [Batch 57/248] Loss_D: 1.5680 Loss_G: 10.2491 D(x): 0.9360 D(G(z)): 0.6853/0.0001
+[Epoch 4/50] [Batch 157/248] Loss_D: 0.4416 Loss_G: 3.3536 D(x): 0.8004 D(G(z)): 0.1149/0.0480
+Saved checkpoint to outputs/checkpoint_epoch_004.pt
+[Epoch 5/50] [Batch 9/248] Loss_D: 0.7004 Loss_G: 3.7375 D(x): 0.6372 D(G(z)): 0.0228/0.0344
+[Epoch 5/50] [Batch 109/248] Loss_D: 0.4026 Loss_G: 4.4102 D(x): 0.7769 D(G(z)): 0.0673/0.0234
+[Epoch 5/50] [Batch 209/248] Loss_D: 0.4171 Loss_G: 4.7690 D(x): 0.8001 D(G(z)): 0.1004/0.0144
+Saved checkpoint to outputs/checkpoint_epoch_005.pt
+[Epoch 6/50] [Batch 61/248] Loss_D: 0.6901 Loss_G: 5.7099 D(x): 0.6187 D(G(z)): 0.0063/0.0065
+[Epoch 6/50] [Batch 161/248] Loss_D: 0.5383 Loss_G: 6.2935 D(x): 0.8816 D(G(z)): 0.2831/0.0032
+Saved checkpoint to outputs/checkpoint_epoch_006.pt
+[Epoch 7/50] [Batch 13/248] Loss_D: 0.3670 Loss_G: 6.2163 D(x): 0.8922 D(G(z)): 0.1718/0.0037
+[Epoch 7/50] [Batch 113/248] Loss_D: 0.3863 Loss_G: 5.3167 D(x): 0.8848 D(G(z)): 0.1977/0.0079
+[Epoch 7/50] [Batch 213/248] Loss_D: 0.3661 Loss_G: 7.1361 D(x): 0.7651 D(G(z)): 0.0034/0.0017
+Saved checkpoint to outputs/checkpoint_epoch_007.pt
+[Epoch 8/50] [Batch 65/248] Loss_D: 0.2701 Loss_G: 3.5949 D(x): 0.8966 D(G(z)): 0.1272/0.0448
+[Epoch 8/50] [Batch 165/248] Loss_D: 0.7820 Loss_G: 10.4476 D(x): 0.9583 D(G(z)): 0.4604/0.0001
+Saved checkpoint to outputs/checkpoint_epoch_008.pt
+[Epoch 9/50] [Batch 17/248] Loss_D: 1.0492 Loss_G: 12.6072 D(x): 0.9896 D(G(z)): 0.5290/0.0000
+[Epoch 9/50] [Batch 117/248] Loss_D: 0.3855 Loss_G: 4.5399 D(x): 0.7681 D(G(z)): 0.0398/0.0207
+[Epoch 9/50] [Batch 217/248] Loss_D: 1.2798 Loss_G: 11.2433 D(x): 0.9653 D(G(z)): 0.5974/0.0001
+Saved checkpoint to outputs/checkpoint_epoch_009.pt
+[Epoch 10/50] [Batch 69/248] Loss_D: 0.1409 Loss_G: 5.8946 D(x): 0.9385 D(G(z)): 0.0613/0.0069
+[Epoch 10/50] [Batch 169/248] Loss_D: 0.4978 Loss_G: 2.7452 D(x): 0.7234 D(G(z)): 0.0692/0.1066
+Saved checkpoint to outputs/checkpoint_epoch_010.pt
+[Epoch 11/50] [Batch 21/248] Loss_D: 0.9674 Loss_G: 7.1273 D(x): 0.4953 D(G(z)): 0.0006/0.0037
+[Epoch 11/50] [Batch 121/248] Loss_D: 0.3884 Loss_G: 5.7418 D(x): 0.9111 D(G(z)): 0.2268/0.0058
+[Epoch 11/50] [Batch 221/248] Loss_D: 0.0967 Loss_G: 7.5221 D(x): 0.9317 D(G(z)): 0.0162/0.0020
+Saved checkpoint to outputs/checkpoint_epoch_011.pt
+[Epoch 12/50] [Batch 73/248] Loss_D: 0.3916 Loss_G: 6.1544 D(x): 0.9125 D(G(z)): 0.2268/0.0039
+[Epoch 12/50] [Batch 173/248] Loss_D: 0.2394 Loss_G: 4.4778 D(x): 0.8849 D(G(z)): 0.0870/0.0187
+Saved checkpoint to outputs/checkpoint_epoch_012.pt
+[Epoch 13/50] [Batch 25/248] Loss_D: 1.1387 Loss_G: 11.0321 D(x): 0.9563 D(G(z)): 0.6014/0.0001
+[Epoch 13/50] [Batch 125/248] Loss_D: 1.0222 Loss_G: 10.3570 D(x): 0.9750 D(G(z)): 0.5644/0.0001
+[Epoch 13/50] [Batch 225/248] Loss_D: 0.2844 Loss_G: 3.8938 D(x): 0.8658 D(G(z)): 0.1028/0.0327
+Saved checkpoint to outputs/checkpoint_epoch_013.pt
+[Epoch 14/50] [Batch 77/248] Loss_D: 0.4990 Loss_G: 7.4081 D(x): 0.9764 D(G(z)): 0.3292/0.0012
+[Epoch 14/50] [Batch 177/248] Loss_D: 0.6051 Loss_G: 1.8662 D(x): 0.6628 D(G(z)): 0.0656/0.2137
+Saved checkpoint to outputs/checkpoint_epoch_014.pt
+[Epoch 15/50] [Batch 29/248] Loss_D: 0.3790 Loss_G: 5.4858 D(x): 0.9657 D(G(z)): 0.2444/0.0104
+[Epoch 15/50] [Batch 129/248] Loss_D: 0.5896 Loss_G: 2.5109 D(x): 0.6518 D(G(z)): 0.0178/0.1327
+[Epoch 15/50] [Batch 229/248] Loss_D: 0.6139 Loss_G: 6.5981 D(x): 0.8932 D(G(z)): 0.3367/0.0027
+Saved checkpoint to outputs/checkpoint_epoch_015.pt
+[Epoch 16/50] [Batch 81/248] Loss_D: 0.5219 Loss_G: 4.1647 D(x): 0.6693 D(G(z)): 0.0199/0.0323
+[Epoch 16/50] [Batch 181/248] Loss_D: 0.4115 Loss_G: 3.8944 D(x): 0.8225 D(G(z)): 0.1538/0.0331
+Saved checkpoint to outputs/checkpoint_epoch_016.pt
+[Epoch 17/50] [Batch 33/248] Loss_D: 0.6420 Loss_G: 1.7583 D(x): 0.6148 D(G(z)): 0.0292/0.2326
+[Epoch 17/50] [Batch 133/248] Loss_D: 0.8897 Loss_G: 8.5604 D(x): 0.9884 D(G(z)): 0.5105/0.0004
+[Epoch 17/50] [Batch 233/248] Loss_D: 0.4239 Loss_G: 3.8021 D(x): 0.8579 D(G(z)): 0.1944/0.0339
+Saved checkpoint to outputs/checkpoint_epoch_017.pt
+[Epoch 18/50] [Batch 85/248] Loss_D: 0.3711 Loss_G: 3.9501 D(x): 0.8814 D(G(z)): 0.1897/0.0315
+[Epoch 18/50] [Batch 185/248] Loss_D: 0.7153 Loss_G: 1.7386 D(x): 0.5754 D(G(z)): 0.0157/0.2328
+Saved checkpoint to outputs/checkpoint_epoch_018.pt
+[Epoch 19/50] [Batch 37/248] Loss_D: 0.2548 Loss_G: 3.2762 D(x): 0.8813 D(G(z)): 0.0983/0.0581
+[Epoch 19/50] [Batch 137/248] Loss_D: 0.4172 Loss_G: 5.1338 D(x): 0.8878 D(G(z)): 0.2244/0.0105
+[Epoch 19/50] [Batch 237/248] Loss_D: 3.5567 Loss_G: 0.6811 D(x): 0.0737 D(G(z)): 0.0015/0.5788
+Saved checkpoint to outputs/checkpoint_epoch_019.pt
+[Epoch 20/50] [Batch 89/248] Loss_D: 0.2469 Loss_G: 4.4875 D(x): 0.9490 D(G(z)): 0.1593/0.0194
+[Epoch 20/50] [Batch 189/248] Loss_D: 0.2684 Loss_G: 3.9939 D(x): 0.9359 D(G(z)): 0.1681/0.0273
+Saved checkpoint to outputs/checkpoint_epoch_020.pt
+[Epoch 21/50] [Batch 41/248] Loss_D: 0.4438 Loss_G: 2.9013 D(x): 0.7351 D(G(z)): 0.0722/0.0880
+[Epoch 21/50] [Batch 141/248] Loss_D: 0.3972 Loss_G: 3.1999 D(x): 0.8070 D(G(z)): 0.1257/0.0622
+[Epoch 21/50] [Batch 241/248] Loss_D: 2.7112 Loss_G: 9.3900 D(x): 0.9988 D(G(z)): 0.8787/0.0003
+Saved checkpoint to outputs/checkpoint_epoch_021.pt
+[Epoch 22/50] [Batch 93/248] Loss_D: 1.2596 Loss_G: 0.7085 D(x): 0.3820 D(G(z)): 0.0051/0.5574
+[Epoch 22/50] [Batch 193/248] Loss_D: 0.2538 Loss_G: 3.6656 D(x): 0.9176 D(G(z)): 0.1385/0.0393
+Saved checkpoint to outputs/checkpoint_epoch_022.pt
+[Epoch 23/50] [Batch 45/248] Loss_D: 0.8142 Loss_G: 5.7205 D(x): 0.9940 D(G(z)): 0.4822/0.0068
+[Epoch 23/50] [Batch 145/248] Loss_D: 0.4218 Loss_G: 4.2667 D(x): 0.9727 D(G(z)): 0.2916/0.0248
+[Epoch 23/50] [Batch 245/248] Loss_D: 0.2853 Loss_G: 3.3651 D(x): 0.8137 D(G(z)): 0.0482/0.0526
+Saved checkpoint to outputs/checkpoint_epoch_023.pt
+[Epoch 24/50] [Batch 97/248] Loss_D: 0.4232 Loss_G: 4.9718 D(x): 0.9056 D(G(z)): 0.2485/0.0110
+[Epoch 24/50] [Batch 197/248] Loss_D: 0.3460 Loss_G: 3.0276 D(x): 0.7655 D(G(z)): 0.0397/0.0714
+Saved checkpoint to outputs/checkpoint_epoch_024.pt
+[Epoch 25/50] [Batch 49/248] Loss_D: 5.5268 Loss_G: 0.3226 D(x): 0.0098 D(G(z)): 0.0002/0.7724
+[Epoch 25/50] [Batch 149/248] Loss_D: 0.3627 Loss_G: 4.7894 D(x): 0.9580 D(G(z)): 0.2526/0.0122
+Saved checkpoint to outputs/checkpoint_epoch_025.pt
+[Epoch 26/50] [Batch 1/248] Loss_D: 0.3344 Loss_G: 3.5012 D(x): 0.8865 D(G(z)): 0.1714/0.0452
+[Epoch 26/50] [Batch 101/248] Loss_D: 0.2560 Loss_G: 3.0361 D(x): 0.8434 D(G(z)): 0.0653/0.0657
+[Epoch 26/50] [Batch 201/248] Loss_D: 0.2526 Loss_G: 3.1870 D(x): 0.8488 D(G(z)): 0.0682/0.0628
+Saved checkpoint to outputs/checkpoint_epoch_026.pt
+[Epoch 27/50] [Batch 53/248] Loss_D: 0.3580 Loss_G: 5.0910 D(x): 0.9595 D(G(z)): 0.2413/0.0111
+[Epoch 27/50] [Batch 153/248] Loss_D: 1.6956 Loss_G: 7.6923 D(x): 0.9959 D(G(z)): 0.7541/0.0010
+Saved checkpoint to outputs/checkpoint_epoch_027.pt
+[Epoch 28/50] [Batch 5/248] Loss_D: 1.2326 Loss_G: 1.5794 D(x): 0.3757 D(G(z)): 0.0047/0.2621
+[Epoch 28/50] [Batch 105/248] Loss_D: 0.4408 Loss_G: 1.1356 D(x): 0.6955 D(G(z)): 0.0254/0.3777
+[Epoch 28/50] [Batch 205/248] Loss_D: 0.4865 Loss_G: 4.7805 D(x): 0.9255 D(G(z)): 0.2958/0.0149
+Saved checkpoint to outputs/checkpoint_epoch_028.pt
+[Epoch 29/50] [Batch 57/248] Loss_D: 1.3392 Loss_G: 7.3771 D(x): 0.9671 D(G(z)): 0.6599/0.0013
+[Epoch 29/50] [Batch 157/248] Loss_D: 0.6696 Loss_G: 1.7937 D(x): 0.5733 D(G(z)): 0.0156/0.2116
+Saved checkpoint to outputs/checkpoint_epoch_029.pt
+[Epoch 30/50] [Batch 9/248] Loss_D: 0.3309 Loss_G: 3.0544 D(x): 0.7819 D(G(z)): 0.0548/0.0726
+[Epoch 30/50] [Batch 109/248] Loss_D: 0.3404 Loss_G: 2.7941 D(x): 0.7713 D(G(z)): 0.0420/0.0903
+[Epoch 30/50] [Batch 209/248] Loss_D: 0.2614 Loss_G: 4.2221 D(x): 0.9366 D(G(z)): 0.1649/0.0213
+Saved checkpoint to outputs/checkpoint_epoch_030.pt
+[Epoch 31/50] [Batch 61/248] Loss_D: 0.3975 Loss_G: 3.9326 D(x): 0.9255 D(G(z)): 0.2509/0.0271
+[Epoch 31/50] [Batch 161/248] Loss_D: 0.6968 Loss_G: 4.0446 D(x): 0.9671 D(G(z)): 0.4311/0.0288
+Saved checkpoint to outputs/checkpoint_epoch_031.pt
+[Epoch 32/50] [Batch 13/248] Loss_D: 0.3436 Loss_G: 5.0757 D(x): 0.9507 D(G(z)): 0.2292/0.0104
+[Epoch 32/50] [Batch 113/248] Loss_D: 0.8114 Loss_G: 7.3082 D(x): 0.9835 D(G(z)): 0.4975/0.0013
+[Epoch 32/50] [Batch 213/248] Loss_D: 0.7970 Loss_G: 2.1136 D(x): 0.5290 D(G(z)): 0.0160/0.1801
+Saved checkpoint to outputs/checkpoint_epoch_032.pt
+[Epoch 33/50] [Batch 65/248] Loss_D: 0.4279 Loss_G: 2.9039 D(x): 0.7526 D(G(z)): 0.0965/0.0834
+[Epoch 33/50] [Batch 165/248] Loss_D: 1.2168 Loss_G: 4.7005 D(x): 0.9766 D(G(z)): 0.6337/0.0156
+Saved checkpoint to outputs/checkpoint_epoch_033.pt
+[Epoch 34/50] [Batch 17/248] Loss_D: 0.3327 Loss_G: 2.4210 D(x): 0.8008 D(G(z)): 0.0821/0.1235
+[Epoch 34/50] [Batch 117/248] Loss_D: 0.3507 Loss_G: 4.0879 D(x): 0.8851 D(G(z)): 0.1819/0.0270
+[Epoch 34/50] [Batch 217/248] Loss_D: 0.1986 Loss_G: 3.2915 D(x): 0.9014 D(G(z)): 0.0793/0.0545
+Saved checkpoint to outputs/checkpoint_epoch_034.pt
+[Epoch 35/50] [Batch 69/248] Loss_D: 0.4925 Loss_G: 3.1487 D(x): 0.7195 D(G(z)): 0.0938/0.0650
+[Epoch 35/50] [Batch 169/248] Loss_D: 0.1674 Loss_G: 3.4266 D(x): 0.8911 D(G(z)): 0.0431/0.0475
+Saved checkpoint to outputs/checkpoint_epoch_035.pt
+[Epoch 36/50] [Batch 21/248] Loss_D: 0.2825 Loss_G: 3.3077 D(x): 0.8751 D(G(z)): 0.1197/0.0562
+[Epoch 36/50] [Batch 121/248] Loss_D: 1.0879 Loss_G: 7.0895 D(x): 0.9928 D(G(z)): 0.5928/0.0014
+[Epoch 36/50] [Batch 221/248] Loss_D: 0.4579 Loss_G: 4.7787 D(x): 0.9022 D(G(z)): 0.2646/0.0143
+Saved checkpoint to outputs/checkpoint_epoch_036.pt
+[Epoch 37/50] [Batch 73/248] Loss_D: 0.2147 Loss_G: 3.4171 D(x): 0.9470 D(G(z)): 0.1359/0.0488
+[Epoch 37/50] [Batch 173/248] Loss_D: 1.5923 Loss_G: 0.7981 D(x): 0.2550 D(G(z)): 0.0114/0.5080
+Saved checkpoint to outputs/checkpoint_epoch_037.pt
+[Epoch 38/50] [Batch 25/248] Loss_D: 0.8916 Loss_G: 1.0829 D(x): 0.4692 D(G(z)): 0.0038/0.3983
+[Epoch 38/50] [Batch 125/248] Loss_D: 0.3151 Loss_G: 2.7605 D(x): 0.7994 D(G(z)): 0.0622/0.0970
+[Epoch 38/50] [Batch 225/248] Loss_D: 0.5773 Loss_G: 4.6940 D(x): 0.9635 D(G(z)): 0.3682/0.0158
+Saved checkpoint to outputs/checkpoint_epoch_038.pt
+[Epoch 39/50] [Batch 77/248] Loss_D: 0.5054 Loss_G: 2.4496 D(x): 0.6586 D(G(z)): 0.0194/0.1306
+[Epoch 39/50] [Batch 177/248] Loss_D: 0.4560 Loss_G: 2.3706 D(x): 0.7835 D(G(z)): 0.1525/0.1314
+Saved checkpoint to outputs/checkpoint_epoch_039.pt
+[Epoch 40/50] [Batch 29/248] Loss_D: 0.3672 Loss_G: 2.3470 D(x): 0.7318 D(G(z)): 0.0145/0.1295
+[Epoch 40/50] [Batch 129/248] Loss_D: 0.3875 Loss_G: 2.2937 D(x): 0.8552 D(G(z)): 0.1836/0.1368
+[Epoch 40/50] [Batch 229/248] Loss_D: 0.3800 Loss_G: 4.8443 D(x): 0.9747 D(G(z)): 0.2734/0.0118
+Saved checkpoint to outputs/checkpoint_epoch_040.pt
+[Epoch 41/50] [Batch 81/248] Loss_D: 0.3964 Loss_G: 0.7432 D(x): 0.7158 D(G(z)): 0.0158/0.5353
+[Epoch 41/50] [Batch 181/248] Loss_D: 1.3016 Loss_G: 6.1953 D(x): 0.9916 D(G(z)): 0.6626/0.0033
+Saved checkpoint to outputs/checkpoint_epoch_041.pt
+[Epoch 42/50] [Batch 33/248] Loss_D: 0.1894 Loss_G: 3.7172 D(x): 0.8822 D(G(z)): 0.0510/0.0365
+[Epoch 42/50] [Batch 133/248] Loss_D: 0.2865 Loss_G: 3.2000 D(x): 0.8687 D(G(z)): 0.1156/0.0607
+[Epoch 42/50] [Batch 233/248] Loss_D: 0.8317 Loss_G: 1.3913 D(x): 0.4968 D(G(z)): 0.0054/0.3034
+Saved checkpoint to outputs/checkpoint_epoch_042.pt
+[Epoch 43/50] [Batch 85/248] Loss_D: 0.1349 Loss_G: 4.0451 D(x): 0.9097 D(G(z)): 0.0333/0.0277
+[Epoch 43/50] [Batch 185/248] Loss_D: 0.1274 Loss_G: 4.3154 D(x): 0.9469 D(G(z)): 0.0643/0.0217
+Saved checkpoint to outputs/checkpoint_epoch_043.pt
+[Epoch 44/50] [Batch 37/248] Loss_D: 0.4825 Loss_G: 1.5796 D(x): 0.6896 D(G(z)): 0.0484/0.2662
+[Epoch 44/50] [Batch 137/248] Loss_D: 0.2261 Loss_G: 3.1839 D(x): 0.8271 D(G(z)): 0.0192/0.0645
+[Epoch 44/50] [Batch 237/248] Loss_D: 2.2536 Loss_G: 6.5450 D(x): 0.9881 D(G(z)): 0.8335/0.0040
+Saved checkpoint to outputs/checkpoint_epoch_044.pt
+[Epoch 45/50] [Batch 89/248] Loss_D: 0.5660 Loss_G: 5.3517 D(x): 0.9114 D(G(z)): 0.3300/0.0082
+[Epoch 45/50] [Batch 189/248] Loss_D: 0.1770 Loss_G: 4.3106 D(x): 0.9746 D(G(z)): 0.1294/0.0213
+Saved checkpoint to outputs/checkpoint_epoch_045.pt
+[Epoch 46/50] [Batch 41/248] Loss_D: 0.2389 Loss_G: 3.6886 D(x): 0.8354 D(G(z)): 0.0273/0.0388
+[Epoch 46/50] [Batch 141/248] Loss_D: 0.1525 Loss_G: 3.2547 D(x): 0.9209 D(G(z)): 0.0608/0.0567
+[Epoch 46/50] [Batch 241/248] Loss_D: 0.1014 Loss_G: 4.1226 D(x): 0.9323 D(G(z)): 0.0266/0.0254
+Saved checkpoint to outputs/checkpoint_epoch_046.pt
+[Epoch 47/50] [Batch 93/248] Loss_D: 0.3846 Loss_G: 4.2331 D(x): 0.8582 D(G(z)): 0.1731/0.0240
+[Epoch 47/50] [Batch 193/248] Loss_D: 0.1131 Loss_G: 4.0296 D(x): 0.9363 D(G(z)): 0.0427/0.0284
+Saved checkpoint to outputs/checkpoint_epoch_047.pt
+[Epoch 48/50] [Batch 45/248] Loss_D: 0.0997 Loss_G: 4.3629 D(x): 0.9657 D(G(z)): 0.0602/0.0202
+[Epoch 48/50] [Batch 145/248] Loss_D: 0.2145 Loss_G: 2.9504 D(x): 0.8731 D(G(z)): 0.0643/0.0840
+[Epoch 48/50] [Batch 245/248] Loss_D: 0.5518 Loss_G: 1.2838 D(x): 0.6378 D(G(z)): 0.0310/0.3390
+Saved checkpoint to outputs/checkpoint_epoch_048.pt
+[Epoch 49/50] [Batch 97/248] Loss_D: 0.1745 Loss_G: 4.5681 D(x): 0.9625 D(G(z)): 0.1175/0.0168
+[Epoch 49/50] [Batch 197/248] Loss_D: 0.4014 Loss_G: 4.0042 D(x): 0.9682 D(G(z)): 0.2854/0.0256
+Saved checkpoint to outputs/checkpoint_epoch_049.pt
+[Epoch 50/50] [Batch 49/248] Loss_D: 0.2526 Loss_G: 5.1374 D(x): 0.9795 D(G(z)): 0.1899/0.0093
+[Epoch 50/50] [Batch 149/248] Loss_D: 0.3149 Loss_G: 5.2401 D(x): 0.8759 D(G(z)): 0.1423/0.0092
+Saved checkpoint to outputs/checkpoint_epoch_050.pt
+Training complete. Final generator saved to outputs/generator_final.pt

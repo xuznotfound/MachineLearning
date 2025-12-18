@@ -1,0 +1,6 @@
+Using device: cuda
+GPU: NVIDIA GeForce RTX 4090
+================================================================================
+Running experiments for alexnet
+[WARN] Missing keys when loading alexnet: ['classifier.6.weight', 'classifier.6.bias']
+Loaded pretrained weights (backbone only) for alexnet from /home/airhust/homework/datasets-readonly/alexnet_pretrained_pytorch.pth

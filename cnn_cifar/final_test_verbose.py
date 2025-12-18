@@ -4,16 +4,24 @@ PyTorch CIFAR-10 ResNet-like CNN with residual blocks
 """
 
 import time
+import contextlib
 from pathlib import Path
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
+from torch.cuda.amp import GradScaler
+import torch.amp as amp
 from torchvision import datasets, transforms
 import matplotlib
 matplotlib.use("Agg")  # Use non-GUI backend for saving figures
 import matplotlib.pyplot as plt
 import numpy as np
+
+# Allow CPU side ops and dataloader workers to spin up to 32 threads
+torch.set_num_threads(32)
+torch.set_num_interop_threads(32)
+torch.backends.cudnn.benchmark = True
 
 # 数据预处理：与常见CIFAR-10设置一致（裁剪+翻转+均值方差归一化）
 transform = transforms.Compose([
@@ -97,7 +105,7 @@ class ResNetCIFAR10(nn.Module):
         return out
 
 
-def train(model, train_loader, criterion, optimizer, epoch, device):
+def train(model, train_loader, criterion, optimizer, scaler, epoch, device):
     model.train()
     total_loss = 0.0
     correct = 0
@@ -106,13 +114,16 @@ def train(model, train_loader, criterion, optimizer, epoch, device):
     epoch_start = time.time()
 
     for batch_idx, (inputs, targets) in enumerate(train_loader):
-        inputs, targets = inputs.to(device), targets.to(device)
+        inputs, targets = inputs.to(device, non_blocking=True), targets.to(device, non_blocking=True)
 
-        optimizer.zero_grad()
-        outputs = model(inputs)
-        loss = criterion(outputs, targets)
-        loss.backward()
-        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+        amp_ctx = amp.autocast('cuda', dtype=torch.float16) if device.type == 'cuda' else contextlib.nullcontext()
+        with amp_ctx:
+            outputs = model(inputs)
+            loss = criterion(outputs, targets)
+        scaler.scale(loss).backward()
+        scaler.step(optimizer)
+        scaler.update()
 
         total_loss += loss.item()
         _, predicted = outputs.max(1)
@@ -142,9 +153,11 @@ def test(model, test_loader, criterion, device):
     total = 0
     with torch.no_grad():
         for inputs, targets in test_loader:
-            inputs, targets = inputs.to(device), targets.to(device)
-            outputs = model(inputs)
-            loss = criterion(outputs, targets)
+            inputs, targets = inputs.to(device, non_blocking=True), targets.to(device, non_blocking=True)
+            amp_ctx = amp.autocast('cuda', dtype=torch.float16) if device.type == 'cuda' else contextlib.nullcontext()
+            with amp_ctx:
+                outputs = model(inputs)
+                loss = criterion(outputs, targets)
             total_loss += loss.item()
             _, predicted = outputs.max(1)
             total += targets.size(0)
@@ -165,8 +178,10 @@ if __name__ == '__main__':
     # 2) 数据集与DataLoader（多进程+pin_memory加速主机->GPU传输）
     train_dataset = datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
     test_dataset = datasets.CIFAR10(root='./data', train=False, download=True, transform=transform)
-    train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, num_workers=4, pin_memory=True)
-    test_loader = DataLoader(test_dataset, batch_size=128, shuffle=False, num_workers=4, pin_memory=True)
+    train_loader = DataLoader(train_dataset, batch_size=512, shuffle=True, num_workers=32, pin_memory=True,
+                              persistent_workers=True, prefetch_factor=4)
+    test_loader = DataLoader(test_dataset, batch_size=512, shuffle=False, num_workers=32, pin_memory=True,
+                             persistent_workers=True, prefetch_factor=4)
 
     # 3) 模型、损失、优化器、学习率调度
     model = ResNetCIFAR10(num_classes=10).to(device)
@@ -176,6 +191,7 @@ if __name__ == '__main__':
 
     num_epochs = 200
     best_test_acc = 0.0
+    scaler = GradScaler(enabled=(device.type == 'cuda'))
 
     # Track metrics per epoch for plotting
     history = {
@@ -193,7 +209,7 @@ if __name__ == '__main__':
         # 当前学习率（Adam可用第一个param_group的lr）
         current_lr = optimizer.param_groups[0]['lr']
 
-        train_acc, train_loss, epoch_time, samples_per_sec = train(model, train_loader, criterion, optimizer, epoch, device)
+        train_acc, train_loss, epoch_time, samples_per_sec = train(model, train_loader, criterion, optimizer, scaler, epoch, device)
         test_acc, test_loss = test(model, test_loader, criterion, device)
         scheduler.step()
 

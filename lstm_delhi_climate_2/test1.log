@@ -1,0 +1,66 @@
+Using device: cuda
+Path to dataset files: /home/airhust/.cache/kagglehub/datasets/sumanthvrao/daily-climate-time-series-data/versions/3
+Train samples: 1448, Test samples: 100
+Epoch 001 | train MSE 0.9579 | test MSE 0.8709
+Epoch 002 | train MSE 0.9355 | test MSE 0.8247
+Epoch 003 | train MSE 0.8913 | test MSE 0.7415
+Epoch 004 | train MSE 0.8093 | test MSE 0.5744
+Epoch 005 | train MSE 0.6900 | test MSE 0.3986
+Epoch 006 | train MSE 0.6077 | test MSE 0.6204
+Epoch 007 | train MSE 0.5552 | test MSE 0.7362
+Epoch 008 | train MSE 0.5186 | test MSE 0.7494
+Epoch 009 | train MSE 0.4923 | test MSE 0.8224
+Epoch 010 | train MSE 0.4875 | test MSE 0.7587
+Epoch 011 | train MSE 0.4809 | test MSE 0.8119
+Epoch 012 | train MSE 0.4692 | test MSE 0.8991
+Epoch 013 | train MSE 0.4612 | test MSE 0.8041
+Epoch 014 | train MSE 0.4545 | test MSE 0.8091
+Epoch 015 | train MSE 0.4465 | test MSE 0.7982
+Epoch 016 | train MSE 0.4354 | test MSE 0.7095
+Epoch 017 | train MSE 0.4298 | test MSE 0.7649
+Epoch 018 | train MSE 0.4147 | test MSE 0.6742
+Epoch 019 | train MSE 0.3990 | test MSE 0.7221
+Epoch 020 | train MSE 0.3788 | test MSE 0.5537
+Epoch 021 | train MSE 0.3509 | test MSE 0.5716
+Epoch 022 | train MSE 0.3065 | test MSE 0.3729
+Epoch 023 | train MSE 0.2919 | test MSE 0.5265
+Epoch 024 | train MSE 0.2705 | test MSE 0.4417
+Epoch 025 | train MSE 0.2598 | test MSE 0.4068
+Epoch 026 | train MSE 0.2383 | test MSE 0.4262
+Epoch 027 | train MSE 0.2286 | test MSE 0.4292
+Epoch 028 | train MSE 0.2268 | test MSE 0.4165
+Epoch 029 | train MSE 0.2169 | test MSE 0.4064
+Epoch 030 | train MSE 0.2119 | test MSE 0.4410
+Epoch 031 | train MSE 0.2094 | test MSE 0.3897
+Epoch 032 | train MSE 0.2057 | test MSE 0.4503
+Epoch 033 | train MSE 0.2038 | test MSE 0.3835
+Epoch 034 | train MSE 0.1975 | test MSE 0.4352
+Epoch 035 | train MSE 0.1949 | test MSE 0.4174
+Epoch 036 | train MSE 0.1863 | test MSE 0.3816
+Epoch 037 | train MSE 0.1874 | test MSE 0.3925
+Epoch 038 | train MSE 0.1821 | test MSE 0.3722
+Epoch 039 | train MSE 0.1879 | test MSE 0.3462
+Epoch 040 | train MSE 0.1799 | test MSE 0.3975
+Epoch 041 | train MSE 0.1758 | test MSE 0.3023
+Epoch 042 | train MSE 0.1711 | test MSE 0.4054
+Epoch 043 | train MSE 0.1671 | test MSE 0.2860
+Epoch 044 | train MSE 0.1623 | test MSE 0.3250
+Epoch 045 | train MSE 0.1600 | test MSE 0.3118
+Epoch 046 | train MSE 0.1580 | test MSE 0.3398
+Epoch 047 | train MSE 0.1549 | test MSE 0.2637
+Epoch 048 | train MSE 0.1530 | test MSE 0.2987
+Epoch 049 | train MSE 0.1546 | test MSE 0.2186
+Epoch 050 | train MSE 0.1530 | test MSE 0.2539
+Epoch 051 | train MSE 0.1501 | test MSE 0.2156
+Epoch 052 | train MSE 0.1491 | test MSE 0.2488
+Epoch 053 | train MSE 0.1477 | test MSE 0.2342
+Epoch 054 | train MSE 0.1458 | test MSE 0.2808
+Epoch 055 | train MSE 0.1515 | test MSE 0.2018
+Epoch 056 | train MSE 0.1476 | test MSE 0.2514
+Epoch 057 | train MSE 0.1478 | test MSE 0.2673
+Epoch 058 | train MSE 0.1475 | test MSE 0.2007
+Epoch 059 | train MSE 0.1453 | test MSE 0.2249
+Epoch 060 | train MSE 0.1435 | test MSE 0.2235
+Loaded best model from epoch 58 with test MSE 0.2007
+Final test MSE (original scale): 10.8282
+Saved predictions to results/lstm_delhi_preds.csv

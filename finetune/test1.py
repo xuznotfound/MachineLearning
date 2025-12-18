@@ -1,5 +1,6 @@
 # 作业三：预训练模型在CIFAR-10上的微调实验
 # 运行环境：4090 GPU，PyTorch
+#python anime_face_gan/train_anime_dcgan.py --batch-size 256 --workers 16 --epochs 50 --sample-interval 200
 
 import torch
 import torch.nn as nn

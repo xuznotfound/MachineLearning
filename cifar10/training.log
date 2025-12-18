@@ -1,0 +1,91 @@
+Using device: cuda
+GPU: NVIDIA GeForce RTX 4090
+Epoch 001/1000 | train loss 2.2296 acc 0.2381 | test loss 1.7343 acc 0.3897
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.3897)
+Epoch 002/1000 | train loss 1.8199 acc 0.3561 | test loss 1.5574 acc 0.4756
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.4756)
+Epoch 003/1000 | train loss 1.6929 acc 0.4118 | test loss 1.4413 acc 0.5098
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.5098)
+Epoch 004/1000 | train loss 1.5830 acc 0.4669 | test loss 1.3432 acc 0.5683
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.5683)
+Epoch 005/1000 | train loss 1.5219 acc 0.4989 | test loss 1.3988 acc 0.5372
+Epoch 006/1000 | train loss 1.4712 acc 0.5207 | test loss 1.2177 acc 0.6285
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.6285)
+Epoch 007/1000 | train loss 1.4465 acc 0.5352 | test loss 1.1586 acc 0.6546
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.6546)
+Epoch 008/1000 | train loss 1.4112 acc 0.5502 | test loss 1.1561 acc 0.6490
+Epoch 009/1000 | train loss 1.3975 acc 0.5534 | test loss 1.3817 acc 0.5758
+Epoch 010/1000 | train loss 1.3838 acc 0.5644 | test loss 1.1180 acc 0.6784
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.6784)
+Epoch 011/1000 | train loss 1.3758 acc 0.5663 | test loss 1.2204 acc 0.6250
+Epoch 012/1000 | train loss 1.3605 acc 0.5740 | test loss 1.1815 acc 0.6461
+Epoch 013/1000 | train loss 1.3536 acc 0.5747 | test loss 1.1470 acc 0.6553
+Epoch 014/1000 | train loss 1.3433 acc 0.5812 | test loss 1.0916 acc 0.6923
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.6923)
+Epoch 015/1000 | train loss 1.3402 acc 0.5828 | test loss 1.1286 acc 0.6672
+Epoch 016/1000 | train loss 1.3297 acc 0.5857 | test loss 1.1292 acc 0.6625
+Epoch 017/1000 | train loss 1.3190 acc 0.5910 | test loss 1.1215 acc 0.6685
+Epoch 018/1000 | train loss 1.3167 acc 0.5924 | test loss 1.2625 acc 0.6266
+Epoch 019/1000 | train loss 1.3087 acc 0.5978 | test loss 1.2727 acc 0.6286
+Epoch 020/1000 | train loss 1.3076 acc 0.5970 | test loss 1.1461 acc 0.6669
+Epoch 021/1000 | train loss 1.2984 acc 0.6016 | test loss 1.0868 acc 0.6866
+Epoch 022/1000 | train loss 1.3007 acc 0.5998 | test loss 1.1385 acc 0.6775
+Epoch 023/1000 | train loss 1.2882 acc 0.6088 | test loss 1.2739 acc 0.6254
+Epoch 024/1000 | train loss 1.2798 acc 0.6108 | test loss 1.1626 acc 0.6506
+Epoch 025/1000 | train loss 1.2862 acc 0.6087 | test loss 1.1119 acc 0.6797
+Epoch 026/1000 | train loss 1.2757 acc 0.6141 | test loss 1.0653 acc 0.6951
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.6951)
+Epoch 027/1000 | train loss 1.2769 acc 0.6120 | test loss 1.1106 acc 0.6804
+Epoch 028/1000 | train loss 1.2767 acc 0.6112 | test loss 1.1491 acc 0.6699
+Epoch 029/1000 | train loss 1.2714 acc 0.6136 | test loss 1.1240 acc 0.6857
+Epoch 030/1000 | train loss 1.2698 acc 0.6140 | test loss 1.0603 acc 0.6919
+Epoch 031/1000 | train loss 1.2754 acc 0.6138 | test loss 1.0139 acc 0.7200
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.7200)
+Epoch 032/1000 | train loss 1.2680 acc 0.6164 | test loss 1.2161 acc 0.6428
+Epoch 033/1000 | train loss 1.2677 acc 0.6156 | test loss 1.1030 acc 0.6977
+Epoch 034/1000 | train loss 1.2652 acc 0.6190 | test loss 1.0258 acc 0.7148
+Epoch 035/1000 | train loss 1.2580 acc 0.6228 | test loss 1.0104 acc 0.7263
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.7263)
+Epoch 036/1000 | train loss 1.2508 acc 0.6237 | test loss 1.0240 acc 0.7258
+Epoch 037/1000 | train loss 1.2552 acc 0.6230 | test loss 1.0444 acc 0.7107
+Epoch 038/1000 | train loss 1.2557 acc 0.6222 | test loss 1.0947 acc 0.6825
+Epoch 039/1000 | train loss 1.2484 acc 0.6243 | test loss 1.0549 acc 0.7069
+Epoch 040/1000 | train loss 1.2521 acc 0.6234 | test loss 1.0316 acc 0.7113
+Epoch 041/1000 | train loss 1.2513 acc 0.6244 | test loss 0.9827 acc 0.7362
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.7362)
+Epoch 042/1000 | train loss 1.2454 acc 0.6256 | test loss 1.0384 acc 0.7134
+Epoch 043/1000 | train loss 1.2441 acc 0.6265 | test loss 1.0525 acc 0.7127
+Epoch 044/1000 | train loss 1.2451 acc 0.6262 | test loss 0.9773 acc 0.7410
+Saved new best model to /home/airhust/homework/cifar10/outputs/simple_cnn_cifar10.pth (acc=0.7410)
+Epoch 045/1000 | train loss 1.2473 acc 0.6239 | test loss 1.0151 acc 0.7224
+Epoch 046/1000 | train loss 1.2420 acc 0.6293 | test loss 1.0347 acc 0.7219
+Epoch 047/1000 | train loss 1.2430 acc 0.6277 | test loss 1.0447 acc 0.7122
+Epoch 048/1000 | train loss 1.2473 acc 0.6246 | test loss 1.0527 acc 0.7053
+Epoch 049/1000 | train loss 1.2398 acc 0.6271 | test loss 1.1159 acc 0.6734
+Epoch 050/1000 | train loss 1.2378 acc 0.6287 | test loss 1.0539 acc 0.7057
+Epoch 051/1000 | train loss 1.2410 acc 0.6270 | test loss 1.0130 acc 0.7224
+Epoch 052/1000 | train loss 1.2357 acc 0.6308 | test loss 1.0389 acc 0.7128
+Epoch 053/1000 | train loss 1.2386 acc 0.6301 | test loss 1.0696 acc 0.7039
+Epoch 054/1000 | train loss 1.2332 acc 0.6310 | test loss 1.0769 acc 0.6920
+Epoch 055/1000 | train loss 1.2378 acc 0.6290 | test loss 1.0578 acc 0.7149
+Epoch 056/1000 | train loss 1.2327 acc 0.6294 | test loss 1.2659 acc 0.6394
+Epoch 057/1000 | train loss 1.2338 acc 0.6298 | test loss 1.1420 acc 0.6595
+Epoch 058/1000 | train loss 1.2339 acc 0.6295 | test loss 1.1126 acc 0.6894
+Epoch 059/1000 | train loss 1.2315 acc 0.6317 | test loss 1.1209 acc 0.6753
+Epoch 060/1000 | train loss 1.2331 acc 0.6311 | test loss 1.0194 acc 0.7311
+Epoch 061/1000 | train loss 1.2285 acc 0.6333 | test loss 1.0514 acc 0.7095
+Epoch 062/1000 | train loss 1.2281 acc 0.6329 | test loss 0.9956 acc 0.7316
+Epoch 063/1000 | train loss 1.2288 acc 0.6334 | test loss 1.0486 acc 0.7128
+Epoch 064/1000 | train loss 1.2268 acc 0.6349 | test loss 1.0416 acc 0.7182
+Epoch 065/1000 | train loss 1.2300 acc 0.6325 | test loss 1.0367 acc 0.7199
+Epoch 066/1000 | train loss 1.2297 acc 0.6341 | test loss 1.0391 acc 0.7108
+Epoch 067/1000 | train loss 1.2250 acc 0.6318 | test loss 1.0469 acc 0.7081
+Epoch 068/1000 | train loss 1.2323 acc 0.6335 | test loss 1.2222 acc 0.6535
+Epoch 069/1000 | train loss 1.2254 acc 0.6327 | test loss 1.0473 acc 0.7158
+Epoch 070/1000 | train loss 1.2327 acc 0.6318 | test loss 1.0659 acc 0.6955
+Epoch 071/1000 | train loss 1.2297 acc 0.6333 | test loss 1.0915 acc 0.6905
+Epoch 072/1000 | train loss 1.2247 acc 0.6367 | test loss 1.0038 acc 0.7277
+Epoch 073/1000 | train loss 1.2245 acc 0.6344 | test loss 1.0639 acc 0.7070
+Epoch 074/1000 | train loss 1.2177 acc 0.6372 | test loss 1.0390 acc 0.7142
+No improvement for 30 epochs; early stopping.
+Training finished. Best test accuracy: 0.7410

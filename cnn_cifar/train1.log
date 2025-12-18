@@ -1,0 +1,134 @@
+使用设备: cuda
+GPU型号: NVIDIA GeForce RTX 4090
+开始训练...
+  [Epoch 001][Batch 0100/0196] Loss 1.6935 | Acc 37.19%
+  [Epoch 001][Batch 0196/0196] Loss 1.5043 | Acc 44.39%
+Epoch 001 | LR 0.00100 | Train Loss 1.5043 Acc 44.39% | Test Loss 1.2821 Acc 53.87% | Epoch Time 6.14s | Throughput 8141.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 53.87%
+  [Epoch 002][Batch 0100/0196] Loss 1.0907 | Acc 60.74%
+  [Epoch 002][Batch 0196/0196] Loss 1.0251 | Acc 63.33%
+Epoch 002 | LR 0.00100 | Train Loss 1.0251 Acc 63.33% | Test Loss 1.2760 Acc 55.68% | Epoch Time 5.37s | Throughput 9303.0 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 55.68%
+  [Epoch 003][Batch 0100/0196] Loss 0.8514 | Acc 70.09%
+  [Epoch 003][Batch 0196/0196] Loss 0.8080 | Acc 71.73%
+Epoch 003 | LR 0.00100 | Train Loss 0.8080 Acc 71.73% | Test Loss 0.9434 Acc 68.21% | Epoch Time 5.37s | Throughput 9303.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 68.21%
+  [Epoch 004][Batch 0100/0196] Loss 0.6902 | Acc 75.80%
+  [Epoch 004][Batch 0196/0196] Loss 0.6679 | Acc 76.68%
+Epoch 004 | LR 0.00100 | Train Loss 0.6679 Acc 76.68% | Test Loss 0.6801 Acc 75.99% | Epoch Time 5.39s | Throughput 9268.8 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 75.99%
+  [Epoch 005][Batch 0100/0196] Loss 0.5915 | Acc 79.19%
+  [Epoch 005][Batch 0196/0196] Loss 0.5829 | Acc 79.68%
+Epoch 005 | LR 0.00100 | Train Loss 0.5829 Acc 79.68% | Test Loss 0.7380 Acc 75.90% | Epoch Time 5.38s | Throughput 9300.1 samples/s
+  [Epoch 006][Batch 0100/0196] Loss 0.5150 | Acc 82.12%
+  [Epoch 006][Batch 0196/0196] Loss 0.5158 | Acc 82.21%
+Epoch 006 | LR 0.00100 | Train Loss 0.5158 Acc 82.21% | Test Loss 0.6178 Acc 78.61% | Epoch Time 5.38s | Throughput 9295.6 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 78.61%
+  [Epoch 007][Batch 0100/0196] Loss 0.4707 | Acc 83.61%
+  [Epoch 007][Batch 0196/0196] Loss 0.4680 | Acc 83.75%
+Epoch 007 | LR 0.00100 | Train Loss 0.4680 Acc 83.75% | Test Loss 0.5930 Acc 80.00% | Epoch Time 5.38s | Throughput 9291.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 80.00%
+  [Epoch 008][Batch 0100/0196] Loss 0.4394 | Acc 84.81%
+  [Epoch 008][Batch 0196/0196] Loss 0.4347 | Acc 85.05%
+Epoch 008 | LR 0.00100 | Train Loss 0.4347 Acc 85.05% | Test Loss 0.5466 Acc 82.24% | Epoch Time 5.38s | Throughput 9301.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 82.24%
+  [Epoch 009][Batch 0100/0196] Loss 0.3933 | Acc 86.30%
+  [Epoch 009][Batch 0196/0196] Loss 0.3944 | Acc 86.41%
+Epoch 009 | LR 0.00100 | Train Loss 0.3944 Acc 86.41% | Test Loss 0.5521 Acc 80.70% | Epoch Time 5.38s | Throughput 9286.8 samples/s
+  [Epoch 010][Batch 0100/0196] Loss 0.3631 | Acc 87.61%
+  [Epoch 010][Batch 0196/0196] Loss 0.3695 | Acc 87.22%
+Epoch 010 | LR 0.00100 | Train Loss 0.3695 Acc 87.22% | Test Loss 0.5160 Acc 82.85% | Epoch Time 5.39s | Throughput 9277.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 82.85%
+  [Epoch 011][Batch 0100/0196] Loss 0.3432 | Acc 88.11%
+  [Epoch 011][Batch 0196/0196] Loss 0.3497 | Acc 87.93%
+Epoch 011 | LR 0.00100 | Train Loss 0.3497 Acc 87.93% | Test Loss 0.4686 Acc 84.19% | Epoch Time 5.39s | Throughput 9280.2 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 84.19%
+  [Epoch 012][Batch 0100/0196] Loss 0.3279 | Acc 88.71%
+  [Epoch 012][Batch 0196/0196] Loss 0.3262 | Acc 88.82%
+Epoch 012 | LR 0.00100 | Train Loss 0.3262 Acc 88.82% | Test Loss 0.4540 Acc 84.46% | Epoch Time 5.40s | Throughput 9264.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 84.46%
+  [Epoch 013][Batch 0100/0196] Loss 0.3066 | Acc 89.22%
+  [Epoch 013][Batch 0196/0196] Loss 0.3091 | Acc 89.25%
+Epoch 013 | LR 0.00100 | Train Loss 0.3091 Acc 89.25% | Test Loss 0.4446 Acc 85.03% | Epoch Time 5.39s | Throughput 9273.4 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 85.03%
+  [Epoch 014][Batch 0100/0196] Loss 0.2902 | Acc 90.02%
+  [Epoch 014][Batch 0196/0196] Loss 0.2948 | Acc 89.82%
+Epoch 014 | LR 0.00100 | Train Loss 0.2948 Acc 89.82% | Test Loss 0.4699 Acc 84.47% | Epoch Time 5.36s | Throughput 9328.2 samples/s
+  [Epoch 015][Batch 0100/0196] Loss 0.2740 | Acc 90.71%
+  [Epoch 015][Batch 0196/0196] Loss 0.2743 | Acc 90.63%
+Epoch 015 | LR 0.00100 | Train Loss 0.2743 Acc 90.63% | Test Loss 0.5103 Acc 83.59% | Epoch Time 5.37s | Throughput 9306.7 samples/s
+  [Epoch 016][Batch 0100/0196] Loss 0.2599 | Acc 91.07%
+  [Epoch 016][Batch 0196/0196] Loss 0.2634 | Acc 90.95%
+Epoch 016 | LR 0.00100 | Train Loss 0.2634 Acc 90.95% | Test Loss 0.4559 Acc 84.64% | Epoch Time 5.37s | Throughput 9312.3 samples/s
+  [Epoch 017][Batch 0100/0196] Loss 0.2447 | Acc 91.63%
+  [Epoch 017][Batch 0196/0196] Loss 0.2516 | Acc 91.26%
+Epoch 017 | LR 0.00100 | Train Loss 0.2516 Acc 91.26% | Test Loss 0.4855 Acc 85.03% | Epoch Time 5.39s | Throughput 9276.8 samples/s
+  [Epoch 018][Batch 0100/0196] Loss 0.2351 | Acc 91.88%
+  [Epoch 018][Batch 0196/0196] Loss 0.2398 | Acc 91.74%
+Epoch 018 | LR 0.00100 | Train Loss 0.2398 Acc 91.74% | Test Loss 0.5081 Acc 84.05% | Epoch Time 5.39s | Throughput 9279.1 samples/s
+  [Epoch 019][Batch 0100/0196] Loss 0.2197 | Acc 92.63%
+  [Epoch 019][Batch 0196/0196] Loss 0.2293 | Acc 92.23%
+Epoch 019 | LR 0.00100 | Train Loss 0.2293 Acc 92.23% | Test Loss 0.3618 Acc 88.37% | Epoch Time 5.36s | Throughput 9333.6 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 88.37%
+  [Epoch 020][Batch 0100/0196] Loss 0.2065 | Acc 92.97%
+  [Epoch 020][Batch 0196/0196] Loss 0.2181 | Acc 92.52%
+Epoch 020 | LR 0.00100 | Train Loss 0.2181 Acc 92.52% | Test Loss 0.3632 Acc 87.47% | Epoch Time 5.39s | Throughput 9281.0 samples/s
+  [Epoch 021][Batch 0100/0196] Loss 0.2054 | Acc 92.95%
+  [Epoch 021][Batch 0196/0196] Loss 0.2068 | Acc 92.85%
+Epoch 021 | LR 0.00100 | Train Loss 0.2068 Acc 92.85% | Test Loss 0.4097 Acc 87.14% | Epoch Time 5.37s | Throughput 9313.7 samples/s
+  [Epoch 022][Batch 0100/0196] Loss 0.1874 | Acc 93.32%
+  [Epoch 022][Batch 0196/0196] Loss 0.2005 | Acc 92.94%
+Epoch 022 | LR 0.00100 | Train Loss 0.2005 Acc 92.94% | Test Loss 0.3584 Acc 88.00% | Epoch Time 5.38s | Throughput 9302.0 samples/s
+  [Epoch 023][Batch 0100/0196] Loss 0.1850 | Acc 93.64%
+  [Epoch 023][Batch 0196/0196] Loss 0.1964 | Acc 93.20%
+Epoch 023 | LR 0.00100 | Train Loss 0.1964 Acc 93.20% | Test Loss 0.4622 Acc 86.88% | Epoch Time 5.39s | Throughput 9284.7 samples/s
+  [Epoch 024][Batch 0100/0196] Loss 0.1818 | Acc 93.66%
+  [Epoch 024][Batch 0196/0196] Loss 0.1864 | Acc 93.44%
+Epoch 024 | LR 0.00100 | Train Loss 0.1864 Acc 93.44% | Test Loss 0.3722 Acc 87.85% | Epoch Time 5.40s | Throughput 9263.2 samples/s
+  [Epoch 025][Batch 0100/0196] Loss 0.1700 | Acc 93.99%
+  [Epoch 025][Batch 0196/0196] Loss 0.1735 | Acc 93.89%
+Epoch 025 | LR 0.00100 | Train Loss 0.1735 Acc 93.89% | Test Loss 0.3633 Acc 88.41% | Epoch Time 5.39s | Throughput 9269.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 88.41%
+  [Epoch 026][Batch 0100/0196] Loss 0.1683 | Acc 94.33%
+  [Epoch 026][Batch 0196/0196] Loss 0.1706 | Acc 94.27%
+Epoch 026 | LR 0.00100 | Train Loss 0.1706 Acc 94.27% | Test Loss 0.3571 Acc 88.74% | Epoch Time 5.39s | Throughput 9279.1 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 88.74%
+  [Epoch 027][Batch 0100/0196] Loss 0.1594 | Acc 94.48%
+  [Epoch 027][Batch 0196/0196] Loss 0.1615 | Acc 94.38%
+Epoch 027 | LR 0.00100 | Train Loss 0.1615 Acc 94.38% | Test Loss 0.4225 Acc 86.94% | Epoch Time 5.39s | Throughput 9270.4 samples/s
+  [Epoch 028][Batch 0100/0196] Loss 0.1610 | Acc 94.45%
+  [Epoch 028][Batch 0196/0196] Loss 0.1645 | Acc 94.31%
+Epoch 028 | LR 0.00100 | Train Loss 0.1645 Acc 94.31% | Test Loss 0.4227 Acc 86.95% | Epoch Time 5.40s | Throughput 9267.1 samples/s
+  [Epoch 029][Batch 0100/0196] Loss 0.1527 | Acc 94.87%
+  [Epoch 029][Batch 0196/0196] Loss 0.1562 | Acc 94.61%
+Epoch 029 | LR 0.00100 | Train Loss 0.1562 Acc 94.61% | Test Loss 0.3811 Acc 88.05% | Epoch Time 5.36s | Throughput 9324.8 samples/s
+  [Epoch 030][Batch 0100/0196] Loss 0.1472 | Acc 94.93%
+  [Epoch 030][Batch 0196/0196] Loss 0.1546 | Acc 94.62%
+Epoch 030 | LR 0.00100 | Train Loss 0.1546 Acc 94.62% | Test Loss 0.3803 Acc 88.21% | Epoch Time 5.40s | Throughput 9252.5 samples/s
+  [Epoch 031][Batch 0100/0196] Loss 0.1434 | Acc 95.06%
+  [Epoch 031][Batch 0196/0196] Loss 0.1482 | Acc 94.87%
+Epoch 031 | LR 0.00100 | Train Loss 0.1482 Acc 94.87% | Test Loss 0.3692 Acc 88.83% | Epoch Time 5.39s | Throughput 9283.9 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 88.83%
+  [Epoch 032][Batch 0100/0196] Loss 0.1370 | Acc 95.31%
+  [Epoch 032][Batch 0196/0196] Loss 0.1405 | Acc 95.20%
+Epoch 032 | LR 0.00100 | Train Loss 0.1405 Acc 95.20% | Test Loss 0.3743 Acc 88.77% | Epoch Time 5.39s | Throughput 9281.0 samples/s
+  [Epoch 033][Batch 0100/0196] Loss 0.1359 | Acc 95.33%
+  [Epoch 033][Batch 0196/0196] Loss 0.1403 | Acc 95.06%
+Epoch 033 | LR 0.00100 | Train Loss 0.1403 Acc 95.06% | Test Loss 0.3940 Acc 88.02% | Epoch Time 5.36s | Throughput 9319.7 samples/s
+  [Epoch 034][Batch 0100/0196] Loss 0.1283 | Acc 95.50%
+  [Epoch 034][Batch 0196/0196] Loss 0.1334 | Acc 95.32%
+Epoch 034 | LR 0.00100 | Train Loss 0.1334 Acc 95.32% | Test Loss 0.3343 Acc 89.75% | Epoch Time 5.36s | Throughput 9333.8 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.75%
+  [Epoch 035][Batch 0100/0196] Loss 0.1256 | Acc 95.67%
+  [Epoch 035][Batch 0196/0196] Loss 0.1368 | Acc 95.24%
+Epoch 035 | LR 0.00100 | Train Loss 0.1368 Acc 95.24% | Test Loss 0.3437 Acc 89.44% | Epoch Time 5.40s | Throughput 9267.2 samples/s
+  [Epoch 036][Batch 0100/0196] Loss 0.1290 | Acc 95.58%
+  [Epoch 036][Batch 0196/0196] Loss 0.1340 | Acc 95.34%
+Epoch 036 | LR 0.00100 | Train Loss 0.1340 Acc 95.34% | Test Loss 0.3537 Acc 89.36% | Epoch Time 5.39s | Throughput 9279.8 samples/s
+  [Epoch 037][Batch 0100/0196] Loss 0.1194 | Acc 95.92%
+  [Epoch 037][Batch 0196/0196] Loss 0.1242 | Acc 95.76%
+Epoch 037 | LR 0.00100 | Train Loss 0.1242 Acc 95.76% | Test Loss 0.3467 Acc 89.12% | Epoch Time 5.40s | Throughput 9266.3 samples/s
+  [Epoch 038][Batch 0100/0196] Loss 0.1137 | Acc 95.96%
+  [Epoch 038][Batch 0196/0196] Loss 0.1293 | Acc 95.47%
+Epoch 038 | LR 0.00100 | Train Loss 0.1293 Acc 95.47% | Test Loss 0.3336 Acc 89.99% | Epoch Time 5.38s | Throughput 9289.7 samples/s
+  >>> 保存最优模型，当前最佳测试准确率: 89.99%
